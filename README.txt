@@ -13,6 +13,8 @@ Credits:
 		Font Awesome (fontawesome.io)
 		Icons8 (icons8.com)
 
-	Other:
+	Libraries:
 		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+	Frameworks:
+		Bootstrap (getbootstrap.com)
