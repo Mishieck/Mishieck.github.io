@@ -3114,7 +3114,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #333333, #36454F 50%, #a9a9a9);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3196,8 +3196,8 @@ input, select, textarea {
 			border-color: #ffffff;
 		}
 
-		#footer .icon.major {
-			color: #ffffff;
+		#footer .icon {
+            		filter: invert(100%);
 		}
 
 		#footer .icons {
