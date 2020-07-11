@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24mm"
+   height="24mm"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="portfolio-logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="41.634852"
+     inkscape:cy="22.297342"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="6.2826096,-0.7087306"
+       orientation="1,0"
+       id="guide825"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-39.496064,-102.76896)">
+    <g
+       id="g839"
+       transform="matrix(0.99764229,0,0,0.99803605,0.04722603,0.24896732)">
+      <g
+         id="text817"
+         style="font-style:normal;font-weight:normal;font-size:20.25056839px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.50626421;stroke-opacity:1"
+         transform="scale(0.9794393,1.0209923)"
+         aria-label="M">
+        <path
+           id="path832"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.50626421;stroke-opacity:1"
+           d="m 40.372146,114.44297 v -9.72977 q 0,-1.80949 1.097565,-2.9565 1.097565,-1.147 2.847737,-1.147 2.076474,0 3.193815,1.90838 0.68227,-1.02835 1.46342,-1.46342 0.78115,-0.44496 1.928154,-0.44496 1.819387,0 2.788409,1.147 0.969021,1.14701 0.969021,3.30258 v 9.38369 H 50.64575 v -8.78052 q 0,-0.65261 -0.108768,-0.86025 -0.09888,-0.21754 -0.415294,-0.21754 -0.593279,0 -0.593279,1.00857 v 8.84974 h -4.014517 v -8.78052 q 0,-0.64272 -0.108767,-0.86025 -0.108768,-0.21754 -0.425183,-0.21754 -0.593279,0 -0.593279,1.07779 v 8.78052 z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="text821"
+         style="font-style:normal;font-weight:normal;font-size:20.25056839px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.50626421;stroke-opacity:1"
+         transform="scale(0.9794393,1.0209923)"
+         aria-label="M">
+        <path
+           id="path829"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, ';fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.50626421;stroke-opacity:1"
+           d="m 50.64575,124.1625 v -9.72977 q 0,-1.8095 1.097565,-2.9565 1.097565,-1.14701 2.847736,-1.14701 2.076474,0 3.193815,1.90838 0.68227,-1.02835 1.46342,-1.46342 0.78115,-0.44496 1.928155,-0.44496 1.819387,0 2.788408,1.14701 0.969022,1.147 0.969022,3.30258 v 9.38369 h -4.014517 v -8.78052 q 0,-0.65261 -0.108768,-0.86026 -0.09888,-0.21753 -0.415295,-0.21753 -0.593278,0 -0.593278,1.00857 v 8.84974 h -4.014517 v -8.78052 q 0,-0.64272 -0.108768,-0.86026 -0.108768,-0.21753 -0.425183,-0.21753 -0.593278,0 -0.593278,1.07779 v 8.78052 z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>
