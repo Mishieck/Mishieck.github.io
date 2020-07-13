@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Mishieck Mwale</title>
 
     <!-- ****** faviconit.com favicons ****** -->
     <link rel="shortcut icon" href="/favicon.ico">
@@ -31,32 +33,141 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Bootstrap Font Awesome  -->
+    <!-- Bootstrap Font Awesome CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <title>Mishieck Mwale</title>
+    <!-- Custom CSS -->
+    <style>
+      @import url('./assets/css/cube-3d-animation.css');
+
+      .square-container {
+        width: 100% !important;
+        padding-top: 100% !important; /* 1:1 Aspect Ratio */
+        position: relative !important;
+        overflow: hidden !important;
+      }
+      .square-content {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+      }
+      #profile-picture img {
+        object-fit: contain;
+        width: 100%;
+      }
+      #contact {
+        height: 2rem;
+      }
+      #follow {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 2rem;
+      }
+      #contacts i {
+        font-size: 1.2em;
+      }
+      .animation-3d {
+        height: 250px;
+      }
+      #main-skills .border-thin {
+        border-top: 3px solid;
+      }
+    </style>
   </head>
   <body>
     <header class="container-fluid">
 
       <div class="row">
-        <section class="col" id="profile-picture">
-          <div>
-            <img src="" alt="">
+        <section class="col-12" id="profile-picture">
+          <div class="">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="./assets/img/profile.png" alt="" class="">
+            </div>
           </div>
         </section>
 
-        <section class="col" id="summary">
-          
+        <section class="col-12 d-flex flex-column justify-content-start align-items-center" id="summary">
+          <header class="">
+            <div class="">
+              <div class="d-flex justify-content-center align-items-center">
+                <img src="./assets/img/logo.svg" alt="">
+              </div>
+            </div>
+            <h1 class="">Mishieck Mwale</h1>
+          </header>
+          <section>
+            <p>A full stack web developer</p>
+          </section>
         </section>
 
-        <section class="col">
-          <div class="container-fluid">
-            <section id="contact">
-  
+        <section class="col-12">
+          <div class="d-flex flex-column justify-content-center align-items-center" id="contacts">
+            <section class="d-flex justify-content-center align-items-center" id="contact">
+              <div class="icon-container">
+                <a href="" type="button" class="btn square-container">
+                  <span class="square-content">
+                    <i class="fa fa-phone"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-container">
+                <a href="" type="button" class="btn square-container">
+                  <span class="square-content">
+                    <i class="fa fa-whatsapp"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-container">
+                <a href="" type="button" class="btn square-container">
+                  <span class="square-content">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                </a>
+              </div>
             </section>
-            <section id="follow">
-              
+
+            <div>
+
+            </div>
+
+            <section class="d-flex justify-content-center align-items-center" id="follow">
+              <div class="icon-container">
+                <a href="" type="button" class="btn square-container">
+                  <span class="square-content">
+                    <i class="fa fa-facebook"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-container">
+                <a href="" type="button" class="btn square-container">
+                  <span class="square-content">
+                    <i class="fa fa-twitter"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-container">
+                <a href="" type="button" class="btn square-container">
+                  <span class="square-content">
+                    <i class="fa fa-instagram"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-container">
+                <a href="" type="button" class="btn square-container">
+                  <span class="square-content">
+                    <i class="fa fa-linkedin"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="icon-container">
+                <a href="" type="button" class="btn square-container">
+                  <span class="square-content">
+                    <i class="fa fa-github"></i>
+                  </span>
+                </a>
+              </div>
             </section>
           </div>
         </section>
@@ -65,42 +176,183 @@
     </header>
 
 
-    <main>
+    <main class="container-fluid">
 
-      <section id="about">
-
+      <section class="row" id="about">
+        <header class="container-fluid d-flex justify-content-center">
+          <h1 class="text-center">
+            <span>About Me</span>
+          </h1>
+        </header>
+        <section>
+          <p>Rolem ipsum.</p>
+        </section>
       </section>
 
-      <section id="skills">
-        <header>
-
+      <section class="row" id="skills">
+        <header class="container-fluid d-flex justify-content-center">
+          <h1 class="text-center">
+            <span>Skills</span>
+          </h1>
         </header>
 
-        <section>
+        <section class="col-12">
           <section id="main-skills">
-    
+            <header>
+              <h1 class="text-center">
+                <span>Main Skills</span>
+              </h1>
+            </header>
+
+            <section class="position-relative animation-3d">
+              <div id="cube-wrapper">
+                <div class="cube-area" id="cube">
+                  <div id="cube-front" class="cube"></div>
+                  <div id="cube-right" class="cube"></div>
+                  <div id="cube-back" class="cube"></div>
+                  <div id="cube-left" class="cube"></div>
+                  <div id="cube-top" class="cube"></div>
+                  <div id="cube-bottom" class="cube"></div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div class="border-thin">
+
+              </div>
+            </section>
           </section>
 
           <section id="specific-skills">
-    
+            <header>
+              <h1 class="text-center">
+                <span>Specific Skills</span>
+              </h1>
+            </header>
+
+            <section class="container-fluid">
+              <ul class="row">
+                <li class="col-6">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="icon-container">
+                      <div class="square-container">
+                        <div class="squre-content">
+                          <img src="./assets/img/logos/html-5.svg"/>
+                        </div>
+                      </div>
+                    </div>
+                    <h1>HTML5</h1>
+                  </div>
+                </li>
+                <li class="col-6">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="icon-container">
+                      <div class="square-container">
+                        <div class="squre-content">
+                          <img src="./assets/img/logos/css-3.svg"/>
+                        </div>
+                      </div>
+                    </div>
+                    <h1>CSS3</h1>
+                  </div>
+                </li>
+                <li class="col-6">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="icon-container">
+                      <div class="square-container">
+                        <div class="squre-content">
+                          <img src="./assets/img/logos/js.svg"/>
+                        </div>
+                      </div>
+                    </div>
+                    <h1>JavaScript</h1>
+                  </div>
+                </li>
+                <li class="col-6">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="icon-container">
+                      <div class="square-container">
+                        <div class="squre-content">
+                          <img src="./assets/img/logos/nodejs.svg"/>
+                        </div>
+                      </div>
+                    </div>
+                    <h1>Node.js</h1>
+                  </div>
+                </li>
+              </ul>
+            </section>
           </section>
 
         </section>
 
       </section>
 
-      <section id="projects">
+      <section class="row" id="projects">
+        <header class="container-fluid d-flex justify-content-center">
+          <h1 class="text-center">
+            <span>Projects</span>
+          </h1>
+        </header>
+        <section class="container-fluid">
+          <ul class="row">
+            <li class="col-12">
+              <div class="container-fluid">
+                <header class=""><span>Roadal</span></header>
 
+                <section class="container-fluid">
+                  <div id="roadalCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#roadalCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#roadalCarousel" data-slide-to="1"></li>
+                      <li data-target="#roadalCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-interval="3000">
+                        <img src="./assets/img/projects/roadal/phone.PNG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-interval="3000">
+                        <img src="./assets/img/projects/roadal/tablet.PNG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-interval="3000">
+                        <img src="./assets/img/projects/roadal/desktop.PNG" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#roadalCarousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#roadalCarousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <div class="details">
+
+                  </div>
+                </section>
+              </div>
+            </li>
+          </ul>
+        </section>
       </section>
 
-      <section id="send-message">
-
+      <section class="row" id="send-message">
+        <header class="container-fluid d-flex justify-content-center">
+          <h1 class="text-center">
+            <span>Send A Message</span>
+          </h1>
+        </header>
+        <section>
+          
+        </section>
       </section>
 
     </main>
 
 
-    <footer>
+    <footer class="container-fluid">
 
     </footer>
 
