@@ -1,0 +1,15 @@
+.rounded-xs {
+  border-radius: 0.25rem;
+}
+.rounded-sm {
+  border-radius: 0.5rem;
+}
+.rounded-md {
+  border-radius: 1rem;
+}
+.rounded-lg {
+  border-radius: 1.5rem;
+}
+.rounded-xl {
+  border-radius: 3rem;
+}

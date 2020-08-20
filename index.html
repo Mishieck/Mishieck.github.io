@@ -38,19 +38,23 @@
 
     <!-- Custom CSS -->
     <style>
+      @import url('./assets/css/root.css');
+      @import url('./assets/css/border-radius.css');
+      @import url('./assets/css/square-container.css');
+      @import url('./assets/css/neumorphism.css');
       @import url('./assets/css/cube-3d-animation.css');
+      @import url('./assets/css/media/sm.css') (min-width: 576px);
+      @import url('./assets/css/media/md.css') (min-width: 768px);
+      @import url('./assets/css/media/lg.css') (min-width: 992px);
+      @import url('./assets/css/media/xl.css') (min-width: 1200px);
 
-      .square-container {
-        width: 100% !important;
-        padding-top: 100% !important; /* 1:1 Aspect Ratio */
-        position: relative !important;
-        overflow: hidden !important;
+      body {
+        background-color: #e7eeee;
       }
-      .square-content {
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
+      ul.nostyle {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
       }
       #profile-picture img {
         object-fit: contain;
@@ -68,12 +72,35 @@
       #contacts i {
         font-size: 1.2em;
       }
+      main > section > header {
+        margin-top: 3rem;
+      }
       .animation-3d {
         height: 250px;
+      }
+      #main-skills > header, #specific-skills > header {
+        margin-top: 2rem;
       }
       #main-skills .border-thin {
         border-top: 3px solid;
       }
+      #main-skills-list ul {
+        padding: 0;
+        margin: 0;
+      }
+      #specific-skills li {
+        padding: 1.5rem;
+      }
+      #specific-skills li .square-content {
+        padding: 1.5rem;
+      }
+      #specific-skills li img {
+        object-fit: contain;
+        width: 80%;
+      }
+      /* #main-skills-list span {
+        height: 100%;
+      } */
     </style>
   </head>
   <body>
@@ -81,21 +108,31 @@
 
       <div class="row">
         <section class="col-12" id="profile-picture">
-          <div class="">
-            <div class="d-flex justify-content-center align-items-center">
-              <img src="./assets/img/profile.png" alt="" class="">
+          <div class="neumorph-xs rounded-circle">
+            <div class="neumorph-sm rounded-circle">
+              <div class="neumorph-md rounded-circle">
+                <div class="neumorph-lg rounded-circle">
+                  <div class="neumorph-xl rounded-circle">
+                    <div class="">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <img src="./assets/img/profile.png" alt="" class=" rounded-circle">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        <section class="col-12 d-flex flex-column justify-content-start align-items-center" id="summary">
-          <header class="">
+        <section class="col-12 d-flex flex-column justify-content-start align-items-center p-4" id="summary">
+          <header class="d-flex flex-column justify-content-center">
             <div class="">
               <div class="d-flex justify-content-center align-items-center">
                 <img src="./assets/img/logo.svg" alt="">
               </div>
             </div>
-            <h1 class="">Mishieck Mwale</h1>
+            <h1 class="h2">Mishieck Mwale</h1>
           </header>
           <section>
             <p>A full stack web developer</p>
@@ -180,7 +217,7 @@
 
       <section class="row" id="about">
         <header class="container-fluid d-flex justify-content-center">
-          <h1 class="text-center">
+          <h1 class="h3 text-center">
             <span>About Me</span>
           </h1>
         </header>
@@ -191,7 +228,7 @@
 
       <section class="row" id="skills">
         <header class="container-fluid d-flex justify-content-center">
-          <h1 class="text-center">
+          <h1 class="h3 text-center">
             <span>Skills</span>
           </h1>
         </header>
@@ -199,7 +236,7 @@
         <section class="col-12">
           <section id="main-skills">
             <header>
-              <h1 class="text-center">
+              <h1 class="h4 text-center">
                 <span>Main Skills</span>
               </h1>
             </header>
@@ -207,78 +244,85 @@
             <section class="position-relative animation-3d">
               <div id="cube-wrapper">
                 <div class="cube-area" id="cube">
-                  <div id="cube-front" class="cube"></div>
-                  <div id="cube-right" class="cube"></div>
-                  <div id="cube-back" class="cube"></div>
-                  <div id="cube-left" class="cube"></div>
+                  <div id="cube-front" class="cube d-flex justify-content-center align-items-center">
+                    <img src="/assets/img/main-skills/web-developer.svg" alt="">
+                  </div>
+                  <div id="cube-right" class="cube d-flex justify-content-center align-items-center">
+                    <img src="/assets/img/main-skills/devices.svg" alt="">
+                  </div>
+                  <div id="cube-back" class="cube d-flex justify-content-center align-items-center">
+                    <img src="/assets/img/main-skills/dashboard.svg" alt="">
+                  </div>
+                  <div id="cube-left" class="cube d-flex justify-content-center align-items-center">
+                    <img src="/assets/img/main-skills/server.svg" alt="">
+                  </div>
                   <div id="cube-top" class="cube"></div>
                   <div id="cube-bottom" class="cube"></div>
                 </div>
               </div>
             </section>
 
-            <section>
-              <div class="border-thin">
-
-              </div>
+            <section id="main-skills-list" class="d-flex justify-content-center align-items-center">
+              <ul>
+                <li class="my-3 p-2 d-flex align-items-center rounded neumorph-sm">
+                  <img src="/assets/img/check.svg" alt="">
+                  <span class="ml-2">Front-end Development</span>
+                </li>
+                <li class="my-3 p-2 d-flex align-items-center rounded neumorph-sm">
+                  <img src="/assets/img/check.svg" alt="">
+                  <span class="ml-2">Back-end Development</span>
+                </li>
+                <li class="my-3 p-2 d-flex align-items-center rounded neumorph-sm">
+                  <img src="/assets/img/check.svg" alt="">
+                  <span class="ml-2">Database Development</span>
+                </li>
+                <li class="my-3 p-2 d-flex align-items-center rounded neumorph-sm">
+                  <img src="/assets/img/check.svg" alt="">
+                  <span class="ml-2">Graphics Design</span>
+                </li>
+              </ul>
             </section>
           </section>
 
           <section id="specific-skills">
             <header>
-              <h1 class="text-center">
+              <h1 class="h4 text-center">
                 <span>Specific Skills</span>
               </h1>
             </header>
 
             <section class="container-fluid">
-              <ul class="row">
-                <li class="col-6">
-                  <div class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="icon-container">
-                      <div class="square-container">
-                        <div class="squre-content">
-                          <img src="./assets/img/logos/html-5.svg"/>
-                        </div>
-                      </div>
+              <ul class="row nostyle">
+                <li class="col-12">
+                  <div class="square-container rounded-md neumorph-inset-sm">
+                    <div class="square-content d-flex flex-column justify-content-center align-items-center">
+                      <img src="./assets/img/logos/html-5.svg"/>
+                      <h1 class="text-center">HTML5</h1>
                     </div>
-                    <h1>HTML5</h1>
                   </div>
                 </li>
-                <li class="col-6">
-                  <div class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="icon-container">
-                      <div class="square-container">
-                        <div class="squre-content">
-                          <img src="./assets/img/logos/css-3.svg"/>
-                        </div>
-                      </div>
+                <li class="col-12">
+                  <div class="square-container rounded-md neumorph-convex-sm">
+                    <div class="square-content d-flex flex-column justify-content-center align-items-center">
+                      <img src="./assets/img/logos/css-3.svg"/>
+                      <h1 class="text-center">CSS3</h1>
                     </div>
-                    <h1>CSS3</h1>
                   </div>
                 </li>
-                <li class="col-6">
-                  <div class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="icon-container">
-                      <div class="square-container">
-                        <div class="squre-content">
-                          <img src="./assets/img/logos/js.svg"/>
-                        </div>
-                      </div>
+                <li class="col-12">
+                  <div class="square-container rounded-md neumorph-convex-sm">
+                    <div class="square-content d-flex flex-column justify-content-center align-items-center">
+                      <img src="./assets/img/logos/js.svg"/>
+                      <h1 class="text-center">JavaScript</h1>
                     </div>
-                    <h1>JavaScript</h1>
                   </div>
                 </li>
-                <li class="col-6">
-                  <div class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="icon-container">
-                      <div class="square-container">
-                        <div class="squre-content">
-                          <img src="./assets/img/logos/nodejs.svg"/>
-                        </div>
-                      </div>
+                <li class="col-12">
+                  <div class="square-container rounded-md neumorph-convex-sm">
+                    <div class="square-content d-flex flex-column justify-content-center align-items-center">
+                      <img src="./assets/img/logos/nodejs.svg"/>
+                      <h1 class="text-center">Node.js</h1>
                     </div>
-                    <h1>Node.js</h1>
                   </div>
                 </li>
               </ul>
@@ -291,14 +335,14 @@
 
       <section class="row" id="projects">
         <header class="container-fluid d-flex justify-content-center">
-          <h1 class="text-center">
+          <h1 class="h3 text-center">
             <span>Projects</span>
           </h1>
         </header>
         <section class="container-fluid">
-          <ul class="row">
-            <li class="col-12">
-              <div class="container-fluid">
+          <ul class="row nostyle">
+            <li class="col-12 p-0">
+              <div class="container-fluid p-0">
                 <header class=""><span>Roadal</span></header>
 
                 <section class="container-fluid">
@@ -340,7 +384,7 @@
 
       <section class="row" id="send-message">
         <header class="container-fluid d-flex justify-content-center">
-          <h1 class="text-center">
+          <h1 class="h3 text-center">
             <span>Send A Message</span>
           </h1>
         </header>
