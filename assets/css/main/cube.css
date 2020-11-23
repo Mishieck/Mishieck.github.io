@@ -70,3 +70,17 @@
     ;
   }
 }
+
+@media (min-width: 992px) {
+  :root {
+    --cube-length: 28vw;
+    --cube-length-neg: -28vw;
+    --translation: -14vw;
+    --translation-pos: 14vw;
+  }
+
+  .cube-area {
+    width: 45vw;
+    min-height: 45vw;
+  }
+}

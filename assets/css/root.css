@@ -1,24 +1,11 @@
 :root {
-  --neumorph-xs: 10px 10px 25px 0 rgba(0, 0, 0, 0.5),
-                 -15px -15px 30px 0 rgba(250, 250, 250, 0.5);
-  --neumorph-sm: 8px 8px 12px -4px rgba(0, 0, 0, 0.5),
-                 -10px -10px 15px -5px rgba(250, 250, 250, 0.5);
-  --neumorph-md: 10px 10px 25px 0 rgba(0, 0, 0, 0.5),
-                 -15px -15px 30px 0 rgba(250, 250, 250, 0.5);
-  --neumorph-lg: 10px 10px 25px 0 rgba(0, 0, 0, 0.5),
-                 -15px -15px 30px 0 rgba(250, 250, 250, 0.5);
-  --neumorph-xl: 10px 10px 25px 0 rgba(0, 0, 0, 0.5),
-                 -15px -15px 30px 0 rgba(250, 250, 250, 0.5);
-  --neumorph-inset-xs: 8px 8px 12px -4px rgba(250, 250, 250, 0.5) inset,
-                       -10px -10px 15px -5px rgba(0, 0, 0, 0.5) inset;
-  --neumorph-inset-sm: 8px 8px 12px -4px rgba(250, 250, 250, 0.5) inset,
-                      -10px -10px 15px -5px rgba(0, 0, 0, 0.5) inset;
-  --neumorph-inset-md: 8px 8px 12px -4px rgba(250, 250, 250, 0.5) inset,
-                        -10px -10px 15px -5px rgba(0, 0, 0, 0.5) inset;
-  --neumorph-inset-lg: 8px 8px 12px -4px rgba(250, 250, 250, 0.5) inset,
-                        -10px -10px 15px -5px rgba(0, 0, 0, 0.5) inset;
-  --neumorph-inset-xl: 8px 8px 12px -4px rgba(250, 250, 250, 0.5) inset,
-                        -10px -10px 15px -5px rgba(0, 0, 0, 0.5) inset;
-  --neumorph-convex: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
-  --neumorph-concave: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+  --primary-color: #00ff00;
+  --secondary-color: #e0e7e0;
+  --primary-heading: 1.3rem;
+  --secondary-heading: 1.1rem;
+  --dark-color: #00400;
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
 }

@@ -27,12 +27,43 @@
 #header .brand .name {
   margin: 5vw 0;
   padding: 1vw;
-  font-size: 2rem;
+  font-size: 10vw;
 }
 
 #header .brand .description {
   margin: 0;
-  padding: 4px;
-  font-size: 1rem;
+  padding: 1.25vw;
+  font-size: 5vw;
   font-weight: normal;
+}
+
+@media (min-width: 576px) {
+  #header .brand .logo-wrapper {
+    padding: 1.5vw;
+  }
+
+  #header .brand .logo {
+    width: 15vw;
+  }
+}
+
+@media (min-width: 992px) {
+  #header .brand .logo-wrapper {
+    padding: 1.5vw;
+  }
+
+  #header .brand .logo {
+    width: 15vw;
+  }
+
+  #header .brand .name {
+    margin: 5vw 0;
+    padding: 0.8vw;
+    font-size: 4vw;
+  }
+  
+  #header .brand .description {
+    padding: 0.4vw;
+    font-size: 2vw;
+  }
 }

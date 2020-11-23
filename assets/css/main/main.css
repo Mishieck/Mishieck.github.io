@@ -6,11 +6,35 @@
 
 #main > .section > .heading {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: var(--primary-heading);
   color: var(--dark-color);
 }
 
 #main > .section > .body {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  :root {
+    --primary-heading: 1.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --primary-heading: 2.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --primary-heading: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --primary-heading: 3rem;
+  }
 }
