@@ -1,0 +1,38 @@
+/* #header .brand {
+} */
+
+#header .brand .wrapper {
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+#header .brand .logo-wrapper {
+  padding: 3vw;
+}
+
+#header .brand .logo {
+  object-fit: contain;
+  width: 20vw;
+}
+
+#header .brand .name, #header .brand .description {
+  text-align: center;
+  color: var(--dark-color);
+}
+
+#header .brand .name {
+  margin: 5vw 0;
+  padding: 1vw;
+  font-size: 2rem;
+}
+
+#header .brand .description {
+  margin: 0;
+  padding: 4px;
+  font-size: 1rem;
+  font-weight: normal;
+}

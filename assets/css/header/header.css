@@ -1,0 +1,17 @@
+@import url('./picture-area.css');
+@import url('./brand.css');
+
+
+#header {
+  padding: 16px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#header > * {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,87 @@
+#skills {
+  padding: 5vw;
+}
+
+#main-skills > .heading, #specific-skills > .heading  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color: var(--dark-color);
+}
+
+#main-skills > .body, #specific-skills > .body  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-skills > .body .list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--secondary-color);
+}
+
+#main-skills > .body .list > .item {
+  margin-bottom: 5vw;
+  padding: 3vw;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  color: var(--dark-color);
+}
+
+
+#specific-skills > .body {
+  display: flex;
+  justify-content: center;
+}
+
+#specific-skills > .body .list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 5vw;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#specific-skills > .body .list .item {
+  margin: 0;
+  width: 36vw;
+  height: 36vw;
+  background-color: var(--secondary-color);
+}
+
+#specific-skills > .body .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#specific-skills > .body .square .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#specific-skills > .body .list .icon {
+  object-fit: contain;
+  width: 70%;
+}
+
+/* Disable grayscale on hover */
+#specific-skills > .body .list .icon:hover {
+  width: 80%;
+}
+
+#specific-skills > .body .list .title {
+  margin: 0;
+  padding: 0;
+}

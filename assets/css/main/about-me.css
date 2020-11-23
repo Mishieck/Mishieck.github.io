@@ -1,0 +1,13 @@
+@import url('./cube.css');
+
+
+#about-me > .body {
+  padding: 5vw;
+  background-color: var(--secondary-color);
+}
+
+#about-me .text {
+  padding-top: 5vw;
+  color: var(--dark-color);
+}
+
