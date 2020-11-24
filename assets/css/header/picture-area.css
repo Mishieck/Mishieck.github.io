@@ -127,27 +127,25 @@
     --mid-padding: 3vw;
     --min-padding: 2.375vw;
   }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --contact-displacement-positive: 6vw;
+    --contact-displacement-negative: -6vw;
+  }
 
   #header .picture-area {
-    display: flex;
     flex-direction: row;
   }
 
   #header .contacts {
-    border: 1px solid black;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
-  
+
   #header .contacts .icon-wrapper {
-    border: 1px solid black;
-    margin-top: 0;
-    padding: 2vw 1vw;
+    padding: 4vw 1vw;
     width: 10vw;
-    height: 15vw;
-    background-color: var(--secondary-color);
   }
   
   #header .primary-contacts .icon-wrapper:nth-child(2), #header .primary-contacts .icon-wrapper:nth-child(3) {
@@ -169,22 +167,27 @@
     margin-top: 0;
     margin-left: var(--contact-displacement-negative);
   }
+
+  #header .contacts .link {
+    padding: 1.2vw;
+  }
 }
 
 @media (min-width: 992px) {
   :root {
-    --max-padding: 3.625vw;
-    --mid-padding: 3vw;
-    --min-padding: 2.375vw;
+    --contact-displacement-positive: 2.5vw;
+    --contact-displacement-negative: -2.5vw;
+    --max-padding: 1.825vw;
+    --mid-padding: 1.5vw;
+    --min-padding: 1.175vw;
   }
 
   #header .contacts .icon-wrapper {
-    padding: 0.5vw 2vw;
-    width: 10vw;
-    background-color: var(--secondary-color);
+    padding: 2vw 0.5vw;
+    width: 5vw;
   }
 
   #header .contacts .link {
-    padding: 1vw;
+    padding: 0.7vw;
   }
 }

@@ -3,10 +3,6 @@
 @import url('./main/main.css');
 @import url('./footer/footer.css');
 @import url('./square.css');
-@import url('./media/sm.css') (min-width: 576px);
-@import url('./media/md.css') (min-width: 768px);
-@import url('./media/lg.css') (min-width: 992px);
-@import url('./media/xl.css') (min-width: 1200px);
 
 
 * {
@@ -29,4 +25,12 @@ body {
 .boundary > .shadow {
   width: 100%;
   height: 100%;
+}
+
+#header .icon, #main-skills .icon {
+  filter: invert(12%) sepia(51%) saturate(4446%) hue-rotate(101deg) brightness(95%) contrast(104%);
+}
+
+#header .icon:hover {
+  filter: invert(52%) sepia(60%) saturate(523%) hue-rotate(70deg) brightness(98%) contrast(90%);
 }

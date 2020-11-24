@@ -16,13 +16,17 @@
   align-items: center;
 }
 
-@media (min-width: 992) {
+@media (min-width: 992px) {
   #header {
-    padding: 16px;
-    flex-direction: row;
+    padding: 5vw;
+    flex-direction: row !important;
   }
 
-  #header > * {
-    width: 50%;
+  #header > .picture-area {
+    width: 60%;
+  }
+
+  #header > .brand {
+    width: 40%;
   }
 }

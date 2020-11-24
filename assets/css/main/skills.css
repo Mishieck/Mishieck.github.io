@@ -1,5 +1,5 @@
 #skills {
-  padding: 5vw;
+  padding: 0 5vw 5vw 5vw;
 }
 
 #main-skills > .heading, #specific-skills > .heading  {
@@ -23,11 +23,11 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
+  gap: 5vw;
   background-color: var(--secondary-color);
 }
 
 #main-skills > .body .list > .item {
-  margin-bottom: 5vw;
   padding: 3vw;
   display: flex;
   align-items: center;
@@ -38,6 +38,14 @@
 #main-skills > .body .list .icon {
   object-fit: contain;
   width: 24px;
+}
+
+#main-skills > .body .list .item:hover .icon {
+  filter: invert(52%) sepia(60%) saturate(523%) hue-rotate(70deg) brightness(98%) contrast(90%);
+}
+
+#main-skills > .body .list .item:hover {
+  color: #00ff00;
 }
 
 #specific-skills > .body {
@@ -67,6 +75,14 @@
   align-items: center;
 }
 
+#specific-skills > .body .square:hover {
+  color: var(--light-color);
+}
+
+#specific-skills > .body .square:hover .icon {
+  width: 80%;
+}
+
 #specific-skills > .body .square .content {
   height: 100%;
   display: flex;
@@ -78,11 +94,6 @@
 #specific-skills > .body .list .icon {
   object-fit: contain;
   width: 70%;
-}
-
-/* Disable grayscale on hover */
-#specific-skills > .body .list .icon:hover {
-  width: 80%;
 }
 
 #specific-skills > .body .list .title {
@@ -124,17 +135,12 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 5vw;
   }
 
   #main-skills > .body .list > .item {
-    margin-bottom: 4vw;
-    padding: 2vw;
     width: 42vw;
     gap: 2vw;
-  }
-
-  #main-skills > .body .list > .item:nth-child(even) {
-    margin-left: 4vw;
   }
 
   #main-skills > .body .list .icon {
@@ -157,5 +163,79 @@
 
   #specific-skills > .body .list .title {
     font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --secondary-heading: 1.8rem;
+  }
+
+  #main-skills > .body .list {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #main-skills > .body .list > .item {
+    padding: 2vw;
+    width: 42vw;
+    gap: 2vw;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --secondary-heading: 1.6rem;
+  }
+  
+  #main-skills > .body .list {
+    gap: 3vw;
+  }
+
+  #main-skills > .body .list > .item {
+    margin-bottom: 0vw;
+    margin-left: 0 !important;
+    padding: 1vw;
+    width: 28vw;
+    gap: 2vw;
+  }
+  
+  #main-skills > .body .list .icon {
+    width: 28px;
+  }
+
+  #main-skills > .body .list .text {
+    font-size: 1.2rem;
+  }
+
+  #specific-skills > .body .list {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3.5vw;
+  }
+
+  #specific-skills > .body .list .item {
+    width: 15vw;
+    height: 15vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --secondary-heading: 2.2rem;
+  }
+  
+  #main-skills > .body .list {
+    gap: 2vw;
+  }
+
+  #specific-skills > .body .list {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 3vw;
+  }
+
+  #specific-skills > .body .list .item {
+    width: 12.5vw;
+    height: 12.5vw;
   }
 }

@@ -48,22 +48,26 @@
 }
 
 @media (min-width: 992px) {
+  #header .brand .wrapper {
+    margin-top: 0;
+  }
+
   #header .brand .logo-wrapper {
-    padding: 1.5vw;
+    padding: 0.8vw;
   }
 
   #header .brand .logo {
-    width: 15vw;
+    width: 8vw;
   }
 
   #header .brand .name {
-    margin: 5vw 0;
-    padding: 0.8vw;
+    margin: 3vw 0;
+    padding: 0.3vw;
     font-size: 4vw;
   }
   
   #header .brand .description {
-    padding: 0.4vw;
-    font-size: 2vw;
+    padding: 0.1vw;
+    font-size: 1.5vw;
   }
 }

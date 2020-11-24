@@ -12,7 +12,6 @@
 }
 
 @media (min-width: 576px) {
-
   #about-me .text {
     font-size: 1.2rem;
   }
@@ -28,7 +27,14 @@
   }
 
   #about-me .text {
-    padding: 0 5vw;
+    padding: 0 0 0 5vw;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about-me .text {
+    font-size: 1.6rem;
   }
 }
 

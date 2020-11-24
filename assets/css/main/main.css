@@ -23,11 +23,15 @@
 
 @media (min-width: 768px) {
   :root {
-    --primary-heading: 2.1rem;
+    --primary-heading: 2rem;
+  }
+  
+  #main > .section > .heading > h2 {
+    margin-bottom: 0;
   }
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   :root {
     --primary-heading: 2.5rem;
   }
@@ -37,4 +41,4 @@
   :root {
     --primary-heading: 3rem;
   }
-}
+} */
