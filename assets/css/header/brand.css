@@ -1,7 +1,9 @@
-/* #header .brand {
-} */
+:root {
+  --duration: 1.4s;
+  --delay: 0.1s;
+}
 
-#header .brand .wrapper {
+#header .brand > .wrapper {
   margin-top: 10vw;
   display: flex;
   flex-direction: column;
@@ -28,6 +30,63 @@
   margin: 5vw 0;
   padding: 1vw;
   font-size: 10vw;
+  color: var(--light-colors);
+}
+
+.name > .wrapper:nth-child(1) {
+  animation: lighten var(--duration) alternate infinite;
+}
+
+.name > .wrapper:nth-child(2) {
+  animation: lighten var(--duration) calc(var(--delay) * 2) alternate infinite;
+}
+
+.name > .wrapper:nth-child(3) {
+  animation: lighten var(--duration) calc(var(--delay) * 3) alternate infinite;
+}
+
+.name > .wrapper:nth-child(4) {
+  animation: lighten var(--duration) calc(var(--delay) * 4) alternate infinite;
+}
+
+.name > .wrapper:nth-child(5) {
+  animation: lighten var(--duration) calc(var(--delay) * 5) alternate infinite;
+}
+
+.name > .wrapper:nth-child(6) {
+  animation: lighten var(--duration) calc(var(--delay) * 6) alternate infinite;
+}
+
+.name > .wrapper:nth-child(7) {
+  animation: lighten var(--duration) calc(var(--delay) * 7) alternate infinite;
+}
+
+.name > .wrapper:nth-child(8) {
+  animation: lighten var(--duration) calc(var(--delay) * 8) alternate infinite;
+}
+
+.name > .wrapper:nth-child(9) {
+  animation: lighten var(--duration) calc(var(--delay) * 9) alternate infinite;
+}
+
+.name > .wrapper:nth-child(10) {
+  animation: lighten var(--duration) calc(var(--delay) * 10) alternate infinite;
+}
+
+.name > .wrapper:nth-child(11) {
+  animation: lighten var(--duration) calc(var(--delay) * 11) alternate infinite;
+}
+
+.name > .wrapper:nth-child(12) {
+  animation: lighten var(--duration) calc(var(--delay) * 12) alternate infinite;
+}
+
+.name > .wrapper:nth-child(13) {
+  animation: lighten var(--duration) calc(var(--delay) * 13) alternate infinite;
+}
+
+.name > .wrapper:nth-child(14) {
+  animation: lighten var(--duration) calc(var(--delay) * 14) alternate infinite;
 }
 
 #header .brand .description {
@@ -35,6 +94,18 @@
   padding: 1.25vw;
   font-size: 5vw;
   font-weight: normal;
+}
+
+@keyframes lighten {
+  0% {
+    text-shadow: 1px 1px 2px rgba(0, 64, 0, 0.67);
+    color: var(--light-color);
+  }
+
+  100% {
+    text-shadow: 0px 0px 0px rgba(0, 64, 0, 0.67);
+    color: var(--dark-color);
+  }
 }
 
 @media (min-width: 576px) {

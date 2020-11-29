@@ -38,7 +38,7 @@
 #portfolio-pic {
   object-fit: contain;
   width: 100%;
-  background-color: #e0f0e0;
+  background-color: #f7fff7;
 }
 
 #header .contacts {
@@ -74,6 +74,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#header .contacts .square:hover .icon {
+  filter: invert(52%) sepia(60%) saturate(523%) hue-rotate(70deg) brightness(98%) contrast(90%);
 }
 
 #header .contacts .link {

@@ -1,3 +1,64 @@
 {
-  
+  "specificSkills": [
+    {
+      "name": "HTML5",
+      "logo": "/assets/img/logos/html5.svg"
+    },
+    {
+      "name": "CSS3",
+      "logo": "/assets/img/logos/css3.svg"
+    },
+    {
+      "name": "JavaScript",
+      "logo": "/assets/img/logos/javascript.svg"
+    },
+    {
+      "name": "Node.js",
+      "logo": "/assets/img/logos/node-js.svg"
+    },
+    {
+      "name": "C++",
+      "logo": "/assets/img/logos/cpp.svg"
+    },
+    {
+      "name": "Rust",
+      "logo": "/assets/img/logos/rust.svg"
+    },
+    {
+      "name": "MongoDB",
+      "logo": "/assets/img/logos/mongodb.svg"
+    },
+    {
+      "name": "MySQL",
+      "logo": "/assets/img/logos/mysql.svg"
+    },
+    {
+      "name": "jQuery",
+      "logo": "/assets/img/logos/jquery.svg"
+    },
+    {
+      "name": "Sass",
+      "logo": "/assets/img/logos/sass.svg"
+    },
+    {
+      "name": "Git",
+      "logo": "/assets/img/logos/git.svg"
+    },
+    {
+      "name": "Figma",
+      "logo": "/assets/img/logos/figma.svg"
+    },
+    {
+      "name": "Inkscape",
+      "logo": "/assets/img/logos/inkscape.svg"
+    },
+    {
+      "name": "Google Maps",
+      "logo": "/assets/img/logos/google-maps.svg"
+    },
+    {
+      "name": "Leaflet",
+      "logo": "/assets/img/logos/leaflet.svg"
+    }
+  ]
 }
