@@ -595,7 +595,7 @@
 }
 
 #specific-skills > .body .square:hover .icon {
-  width: 80%;
+  width: 70%;
 }
 
 #specific-skills > .body .square .content {
@@ -681,7 +681,7 @@
 
   #main-skills > .body .list > .item {
     padding: 1.5vw;
-    width: 42.5vw;
+    width: 35vw;
   }
   
   #main-skills > .body .list .icon {
@@ -701,6 +701,10 @@
 @media (min-width: 1200px) {
   :root {
     --secondary-heading: 2.2rem;
+  }
+
+  #main-skills > .body .list > .item {
+    width: 30vw;
   }
 
   #specific-skills > .body .list {
