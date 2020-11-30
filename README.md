@@ -1,20 +1,13 @@
-This is my portfolio website.
+#Mishieck Mwale
 
-Mishieck Mwale
+##Designer and Developer
+
+__Mishieck Mwale__
 mishieckmwale@gmail.com
+https://mishieck.github.io
 
-Credits:
+##Credits
 
-	Images:
-		Header background image by Arnold Francisca on Unsplash
-		Tools and Technologies section background image by Dries Augustyn on Unsplash
+###Icons
 
-	Icons:
-		Font Awesome (fontawesome.io)
-		Icons8 (icons8.com)
-
-	Libraries:
-		jQuery (jquery.com)
-		
-	Frameworks:
-		Bootstrap (getbootstrap.com)
+* Iconfinder (iconfinder.com)
