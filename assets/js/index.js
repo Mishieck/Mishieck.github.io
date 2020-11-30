@@ -16,7 +16,6 @@ const render = async () => {
   
   nameWrapper.innerText = "";
   nameWrapper.appendChild(name());
-  console.info(nameWrapper);
 
   const mainSkills = (await (await fetch("/assets/json/main-skills.json")).json()).mainSkills,
         specificSkills = (await (await fetch("/assets/json/specific-skills.json")).json()).specificSkills;

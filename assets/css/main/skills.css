@@ -1,5 +1,6 @@
-#skills {
-  padding: 0 5vw 5vw 5vw;
+#main-skills {
+  margin: 0;
+  padding: 0;
 }
 
 #main-skills > .heading, #specific-skills > .heading  {
@@ -29,6 +30,7 @@
 
 #main-skills > .body .list > .item {
   padding: 3vw;
+  width: 90vw;
   display: flex;
   align-items: center;
   gap: 3vw;
@@ -48,6 +50,11 @@
   color: #00ff00;
 }
 
+#specific-skills {
+  margin: 0;
+  padding: 0;
+}
+
 #specific-skills > .body {
   display: flex;
   justify-content: center;
@@ -64,8 +71,9 @@
 
 #specific-skills > .body .list .item {
   margin: 0;
-  width: 36vw;
-  height: 36vw;
+  padding: 0;
+  width: 42.5vw;
+  height: 42.5vw;
   background-color: var(--secondary-color);
 }
 
@@ -93,12 +101,12 @@
 
 #specific-skills > .body .list .icon {
   object-fit: contain;
-  width: 70%;
+  width: 60%;
 }
 
 #specific-skills > .body .list .title {
   margin: 0;
-  padding: 0;
+  padding: 0.25rem 0;
 }
 
 @media (min-width: 576px) {
@@ -116,8 +124,8 @@
 
   #specific-skills > .body .list .item {
     margin: 0;
-    width: 26vw;
-    height: 26vw;
+    width: calc(80vw / 3);
+    height: calc(80vw / 3);
     background-color: var(--secondary-color);
   }
 
@@ -135,11 +143,9 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5vw;
   }
 
   #main-skills > .body .list > .item {
-    width: 42vw;
     gap: 2vw;
   }
 
@@ -153,70 +159,35 @@
 
   #specific-skills > .body .list {
     grid-template-columns: repeat(4, 1fr);
-    gap: 3vw;
   }
 
   #specific-skills > .body .list .item {
-    width: 20vw;
-    height: 20vw;
-  }
-
-  #specific-skills > .body .list .title {
-    font-size: 1.4rem;
-  }
-}
-
-@media (min-width: 768px) {
-  :root {
-    --secondary-heading: 1.8rem;
-  }
-
-  #main-skills > .body .list {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  #main-skills > .body .list > .item {
-    padding: 2vw;
-    width: 42vw;
-    gap: 2vw;
+    width: calc(75vw / 4);
+    height: calc(75vw / 4);
   }
 }
 
 @media (min-width: 992px) {
-  :root {
-    --secondary-heading: 1.6rem;
-  }
-  
-  #main-skills > .body .list {
-    gap: 3vw;
+  #main-skills > .body {
+    padding: 2vw 0;
   }
 
   #main-skills > .body .list > .item {
-    margin-bottom: 0vw;
-    margin-left: 0 !important;
-    padding: 1vw;
-    width: 28vw;
-    gap: 2vw;
+    padding: 1.5vw;
+    width: 42.5vw;
   }
   
   #main-skills > .body .list .icon {
     width: 28px;
   }
 
-  #main-skills > .body .list .text {
-    font-size: 1.2rem;
-  }
-
   #specific-skills > .body .list {
     grid-template-columns: repeat(5, 1fr);
-    gap: 3.5vw;
   }
 
   #specific-skills > .body .list .item {
-    width: 15vw;
-    height: 15vw;
+    width: 14vw;
+    height: 14vw;
   }
 }
 
@@ -224,18 +195,13 @@
   :root {
     --secondary-heading: 2.2rem;
   }
-  
-  #main-skills > .body .list {
-    gap: 2vw;
-  }
 
   #specific-skills > .body .list {
     grid-template-columns: repeat(6, 1fr);
-    gap: 3vw;
   }
 
   #specific-skills > .body .list .item {
-    width: 12.5vw;
-    height: 12.5vw;
+    width: calc(65vw / 6);
+    height: calc(65vw / 6);
   }
 }

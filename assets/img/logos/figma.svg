@@ -1,1 +1,118 @@
-<?xml version="1.0" ?><svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#525967;}.cls-2{fill:#454b57;}.cls-3{fill:#0acf83;}.cls-4{fill:#a259ff;}.cls-5{fill:#f24e1e;}.cls-6{fill:#ff7262;}.cls-7{fill:#1abcfe;}.cls-8{fill:none;}</style></defs><title/><g data-name="Layer 2" id="Layer_2"><g data-name="Layer 1 copy" id="Layer_1_copy"><g data-name="Figma icon" id="Figma_icon"><g data-name="ads manager" id="ads_manager"><rect class="cls-1" height="13.72" rx="2" ry="2" width="13.72" x="5.64" y="5.64"/><path class="cls-2" d="M17.36,6.24a1.4,1.4,0,0,1,1.4,1.4v9.72a1.4,1.4,0,0,1-1.4,1.4H7.64a1.4,1.4,0,0,1-1.4-1.4V7.64a1.4,1.4,0,0,1,1.4-1.4h9.72m0-.6H7.64a2,2,0,0,0-2,2v9.72a2,2,0,0,0,2,2h9.72a2,2,0,0,0,2-2V7.64a2,2,0,0,0-2-2Z"/><path class="cls-3" d="M10.79,17.63a1.71,1.71,0,0,0,1.71-1.71V14.21H10.79a1.71,1.71,0,1,0,0,3.42Z" data-name="path0 fill" id="path0_fill"/><path class="cls-4" d="M9.08,12.5a1.71,1.71,0,0,1,1.71-1.71H12.5v3.42H10.79A1.71,1.71,0,0,1,9.08,12.5Z" data-name="path1 fill" id="path1_fill"/><path class="cls-5" d="M9.08,9.08a1.71,1.71,0,0,1,1.71-1.71H12.5v3.42H10.79A1.71,1.71,0,0,1,9.08,9.08Z" data-name="path1 fill" id="path1_fill-2"/><path class="cls-6" d="M12.5,7.38h1.71a1.71,1.71,0,1,1,0,3.42H12.5Z" data-name="path2 fill" id="path2_fill"/><path class="cls-7" d="M15.92,12.5a1.71,1.71,0,1,1-1.71-1.71A1.71,1.71,0,0,1,15.92,12.5Z" data-name="path3 fill" id="path3_fill"/></g><rect class="cls-8" height="25" width="25"/></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="figma.svg"
+   width="48"
+   height="48"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview25"
+     showgrid="false"
+     inkscape:zoom="9.44"
+     inkscape:cx="24.790295"
+     inkscape:cy="14.296946"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg23" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#525967;}.cls-2{fill:#454b57;}.cls-3{fill:#0acf83;}.cls-4{fill:#a259ff;}.cls-5{fill:#f24e1e;}.cls-6{fill:#ff7262;}.cls-7{fill:#1abcfe;}.cls-8{fill:none;}</style>
+  </defs>
+  <g
+     id="Layer_1_copy"
+     data-name="Layer 1 copy"
+     transform="matrix(3.5005084,0,0,3.5005084,-19.756355,-19.756355)">
+    <g
+       id="Figma_icon"
+       data-name="Figma icon">
+      <g
+         id="ads_manager"
+         data-name="ads manager">
+        <path
+           style="fill:#525967"
+           d="M 7.6399999,5.6399999 H 17.36 c 1.108,0 2,0.892 2,2 V 17.36 c 0,1.108 -0.892,2 -2,2 H 7.6399999 c -1.108,0 -2,-0.892 -2,-2 V 7.6399999 c 0,-1.108 0.892,-2 2,-2 z"
+           id="rect8"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#454b57"
+           inkscape:connector-curvature="0"
+           id="path10"
+           d="m 17.36,6.24 a 1.4,1.4 0 0 1 1.4,1.4 v 9.72 a 1.4,1.4 0 0 1 -1.4,1.4 H 7.64 a 1.4,1.4 0 0 1 -1.4,-1.4 V 7.64 a 1.4,1.4 0 0 1 1.4,-1.4 h 9.72 m 0,-0.6 H 7.64 a 2,2 0 0 0 -2,2 v 9.72 a 2,2 0 0 0 2,2 h 9.72 a 2,2 0 0 0 2,-2 V 7.64 a 2,2 0 0 0 -2,-2 z"
+           class="cls-2" />
+        <path
+           style="fill:#0acf83"
+           inkscape:connector-curvature="0"
+           id="path0_fill"
+           data-name="path0 fill"
+           d="m 10.79,17.63 a 1.71,1.71 0 0 0 1.71,-1.71 v -1.71 h -1.71 a 1.71,1.71 0 1 0 0,3.42 z"
+           class="cls-3" />
+        <path
+           style="fill:#a259ff"
+           inkscape:connector-curvature="0"
+           id="path1_fill"
+           data-name="path1 fill"
+           d="m 9.08,12.5 a 1.71,1.71 0 0 1 1.71,-1.71 h 1.71 v 3.42 H 10.79 A 1.71,1.71 0 0 1 9.08,12.5 Z"
+           class="cls-4" />
+        <path
+           style="fill:#f24e1e"
+           inkscape:connector-curvature="0"
+           id="path1_fill-2"
+           data-name="path1 fill"
+           d="m 9.08,9.08 a 1.71,1.71 0 0 1 1.71,-1.71 h 1.71 v 3.42 H 10.79 A 1.71,1.71 0 0 1 9.08,9.08 Z"
+           class="cls-5" />
+        <path
+           style="fill:#ff7262"
+           inkscape:connector-curvature="0"
+           id="path2_fill"
+           data-name="path2 fill"
+           d="m 12.5,7.38 h 1.71 a 1.71,1.71 0 1 1 0,3.42 H 12.5 Z"
+           class="cls-6" />
+        <path
+           style="fill:#1abcfe"
+           inkscape:connector-curvature="0"
+           id="path3_fill"
+           data-name="path3 fill"
+           d="m 15.92,12.5 a 1.71,1.71 0 1 1 -1.71,-1.71 1.71,1.71 0 0 1 1.71,1.71 z"
+           class="cls-7" />
+      </g>
+      <path
+         style="fill:none"
+         d="M 0,0 H 25 V 25 H 0 Z"
+         id="rect18"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

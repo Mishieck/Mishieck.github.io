@@ -10,6 +10,10 @@
   color: var(--dark-color);
 }
 
+#main > .section {
+  padding: 5vw;
+}
+
 #main > .section > .body {
   display: flex;
   flex-direction: column;
@@ -25,20 +29,4 @@
   :root {
     --primary-heading: 2rem;
   }
-  
-  #main > .section > .heading > h2 {
-    margin-bottom: 0;
-  }
 }
-
-/* @media (min-width: 992px) {
-  :root {
-    --primary-heading: 2.5rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  :root {
-    --primary-heading: 3rem;
-  }
-} */

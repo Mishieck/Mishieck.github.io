@@ -2,11 +2,13 @@
 
 
 #about-me > .body {
-  padding: 5vw;
+  margin: 0;
+  padding: 0;
   background-color: var(--secondary-color);
 }
 
 #about-me .text {
+  margin: 0;
   padding-top: 5vw;
   color: var(--dark-color);
 }
