@@ -1,13 +1,15 @@
-#Mishieck Mwale
+# Mishieck Mwale
 
-##Designer and Developer
+## Designer and Developer
 
 __Mishieck Mwale__
+
 mishieckmwale@gmail.com
+
 https://mishieck.github.io
 
-##Credits
+## Credits
 
-###Icons
+### Icons
 
 * Iconfinder (iconfinder.com)
