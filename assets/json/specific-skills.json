@@ -37,6 +37,10 @@
       "logo": "/assets/img/logos/jquery.svg"
     },
     {
+      "name": "Bootstrap",
+      "logo": "/assets/img/logos/bootstrap.svg"
+    },
+    {
       "name": "Sass",
       "logo": "/assets/img/logos/sass.svg"
     },

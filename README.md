@@ -13,3 +13,4 @@ https://mishieck.github.io
 ### Icons
 
 * Iconfinder (iconfinder.com)
+* Icons8 (icons8.com)
