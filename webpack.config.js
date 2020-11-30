@@ -1,40 +1,36 @@
 const path = require('path');
 
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
 module.exports = {
-  entry: path.resolve(__dirname, './src/riu-neumorphism.js'),
+  mode: "production",
+  entry: path.resolve(__dirname, './assets/js/index.js'),
   module: {
     rules: [
       {
         test: /\.(js)$/,
         exclude: /node_modules/,
+        use: ["babel-loader"]
+      },
+      {
+        test: /\.css$/i,
+        exclude: /node_modules/,
         use: [
-          "babel-loader",
-          "style-loader",
-          "css-loader",
-          {
-            loader: "postcss-loader",
-            options: {
-              postcssOptions: {
-                plugins: [
-                  [
-                    "postcss-preset-env",
-                    {
-                      // Options
-                    },
-                  ],
-                ],
-              },
-            },
-          }
-        ]
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader',
+        ],
       }
     ]
   },
+  plugins: [
+    new MiniCssExtractPlugin(),
+  ],
   resolve: {
     extensions: ['*', '.js']
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'riu-neumorphism.js',
+    filename: 'index.js',
   }
 };

@@ -1,6 +1,7 @@
 import { name } from "./components/name.js";
 import { mainSkill } from "./components/main-skill.js";
 import { specificSkill } from "./components/specific-skill.js";
+import "../css/index.css";
 
 
 window.addEventListener("load", e => {
