@@ -3,8 +3,9 @@
 
 
 #header {
+  margin: 0;
   padding: 5vw;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -18,7 +19,6 @@
 
 @media (min-width: 992px) {
   #header {
-    padding: 5vw;
     flex-direction: row !important;
   }
 

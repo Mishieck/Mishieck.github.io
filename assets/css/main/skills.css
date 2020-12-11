@@ -35,11 +35,13 @@
   align-items: center;
   gap: 3vw;
   color: var(--dark-color);
+  transition: color 0.4s;
 }
 
 #main-skills > .body .list .icon {
   object-fit: contain;
   width: 24px;
+  transition: filter 0.4s;
 }
 
 #main-skills > .body .list .item:hover .icon {
@@ -102,11 +104,13 @@
 #specific-skills > .body .list .icon {
   object-fit: contain;
   width: 60%;
+  transition: width 0.4s;
 }
 
 #specific-skills > .body .list .title {
   margin: 0;
   padding: 0.25rem 0;
+  transition: color 0.4s;
 }
 
 @media (min-width: 576px) {

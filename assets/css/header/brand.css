@@ -14,11 +14,17 @@
 
 #header .brand .logo-wrapper {
   padding: 3vw;
+  transition: box-shadow 0.4s;
 }
 
 #header .brand .logo {
   object-fit: contain;
   width: 20vw;
+  transition: width 0.4s;
+}
+
+#header .brand .logo-wrapper:hover .logo {
+  width: 22vw;
 }
 
 #header .brand .name, #header .brand .description {
@@ -116,6 +122,10 @@
   #header .brand .logo {
     width: 15vw;
   }
+
+  #header .brand .logo-wrapper:hover .logo {
+    width: 16.5vw;
+  }
 }
 
 @media (min-width: 992px) {
@@ -129,6 +139,10 @@
 
   #header .brand .logo {
     width: 8vw;
+  }
+  
+  #header .brand .logo-wrapper:hover .logo {
+    width: 8.8vw;
   }
 
   #header .brand .name {

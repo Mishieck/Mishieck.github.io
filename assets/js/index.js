@@ -1,7 +1,7 @@
 import { name } from "./components/name.js";
 import { mainSkill } from "./components/main-skill.js";
 import { specificSkill } from "./components/specific-skill.js";
-import "../css/index.css";
+// import "../css/index.css";
 
 
 window.addEventListener("load", e => {
@@ -29,17 +29,28 @@ const events = async () => {
     illuminate(btn);
   });
 
-  illuminate(document.querySelector("#header .brand .logo"));
+  const logoWrapper = document.querySelector("#header .brand .logo-wrapper");
+  illuminate(logoWrapper);
+
+  logoWrapper.addEventListener("mouseenter", function(e) {
+    const riuNeu = this.getAttribute("riu-neu");
+    this.setAttribute("riu-neu", riuNeu.replace("sm", "md"));
+  });
+  
+  logoWrapper.addEventListener("mouseleave", function(e) {
+    const riuNeu = this.getAttribute("riu-neu");
+    this.setAttribute("riu-neu", riuNeu.replace("md", "sm"));
+  });
 }
 
 const illuminate = element => {
   element.addEventListener("mouseenter", function(e) {
-    this.setAttribute("riu-neu", this.getAttribute("riu-neu")
-        .concat(" colors(255 255 255, 64 255 64) opacities(1, 0.5)"));
+    const riuNeu = this.getAttribute("riu-neu");
+    this.setAttribute("riu-neu", riuNeu.concat(" colors(255 255 255, 64 255 64) opacities(1, 0.6)"));
   });
   
   element.addEventListener("mouseleave", function(e) {
-    this.setAttribute("riu-neu", this.getAttribute("riu-neu")
-        .replace(" colors(255 255 255, 64 255 64) opacities(1, 0.5)", ""));
+    const riuNeu = this.getAttribute("riu-neu");
+    this.setAttribute("riu-neu", riuNeu.replace(" colors(255 255 255, 64 255 64) opacities(1, 0.6)", ""));
   });
 }

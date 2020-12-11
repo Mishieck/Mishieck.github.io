@@ -74,10 +74,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color, box-shadow 0.4s;
 }
 
-#header .contacts .square:hover .icon {
-  filter: invert(52%) sepia(60%) saturate(523%) hue-rotate(70deg) brightness(98%) contrast(90%);
+#header .contacts .square:hover {
+  background-color: var(--light-color);
 }
 
 #header .contacts .link {
@@ -93,6 +94,12 @@
   object-fit: contain;
   width: 100%;
   height: 100%;
+  filter: invert(52%) sepia(60%) saturate(523%) hue-rotate(70deg) brightness(98%) contrast(90%);
+  transition: filter 0.4s;
+}
+
+#header .contacts .square:hover .icon {
+  filter: invert(100%);
 }
 
 @keyframes change-depth {

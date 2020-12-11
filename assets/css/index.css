@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+.link {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -27,6 +32,6 @@ body {
   height: 100%;
 }
 
-#header .icon, #main-skills .icon {
+#main-skills .icon {
   filter: invert(12%) sepia(51%) saturate(4446%) hue-rotate(101deg) brightness(95%) contrast(104%);
 }
