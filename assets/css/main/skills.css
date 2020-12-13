@@ -176,6 +176,10 @@
     padding: 2vw 0;
   }
 
+  #main-skills > .body .list {
+    padding: 5vw 0;
+  }
+
   #main-skills > .body .list > .item {
     padding: 1.5vw;
     width: 35vw;
