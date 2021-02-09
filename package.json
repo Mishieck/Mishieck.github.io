@@ -1,10 +1,11 @@
 {
   "name": "mishieck-mwale",
   "version": "1.0.0",
-  "description": "This is my portfolio website.",
+  "description": "The portfolio website for Mishieck Mwale.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "dev": "parcel src/index.js",
+    "build": "parcel build src/index.js>"
   },
   "repository": {
     "type": "git",
