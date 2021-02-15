@@ -7,7 +7,7 @@ const markup = `
       <cylinder>
         <cylinder>
           <cylinder name="innermost">
-            <picture html="img" src="./assets/img/portfolio-pic.png" alt="Mishieck Mwale" />
+            <picture html="img" src="/src/assets/images/portfolio-pic.png" alt="Mishieck Mwale" />
           </cylinder>
         </cylinder>
       </cylinder>

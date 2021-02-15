@@ -2,71 +2,71 @@
   "specificSkills": [
     {
       "name": "HTML5",
-      "logo": "/assets/img/logos/html5.svg"
+      "logo": "/src/assets/images/logos/html5.svg"
     },
     {
       "name": "CSS3",
-      "logo": "/assets/img/logos/css3.svg"
+      "logo": "/src/assets/images/logos/css3.svg"
     },
     {
       "name": "JavaScript",
-      "logo": "/assets/img/logos/javascript.svg"
+      "logo": "/src/assets/images/logos/javascript.svg"
     },
     {
       "name": "Node.js",
-      "logo": "/assets/img/logos/node-js.svg"
+      "logo": "/src/assets/images/logos/node-js.svg"
     },
     {
       "name": "C++",
-      "logo": "/assets/img/logos/cpp.svg"
+      "logo": "/src/assets/images/logos/cpp.svg"
     },
     {
       "name": "Rust",
-      "logo": "/assets/img/logos/rust.svg"
+      "logo": "/src/assets/images/logos/rust.svg"
     },
     {
       "name": "MongoDB",
-      "logo": "/assets/img/logos/mongodb.svg"
+      "logo": "/src/assets/images/logos/mongodb.svg"
     },
     {
       "name": "MySQL",
-      "logo": "/assets/img/logos/mysql.svg"
+      "logo": "/src/assets/images/logos/mysql.svg"
     },
     {
       "name": "jQuery",
-      "logo": "/assets/img/logos/jquery.svg"
+      "logo": "/src/assets/images/logos/jquery.svg"
     },
     {
       "name": "Bootstrap",
-      "logo": "/assets/img/logos/bootstrap.svg"
+      "logo": "/src/assets/images/logos/bootstrap.svg"
     },
     {
       "name": "Sass",
-      "logo": "/assets/img/logos/sass.svg"
+      "logo": "/src/assets/images/logos/sass.svg"
     },
     {
       "name": "Git",
-      "logo": "/assets/img/logos/git.svg"
+      "logo": "/src/assets/images/logos/git.svg"
     },
     {
       "name": "Figma",
-      "logo": "/assets/img/logos/figma.svg"
+      "logo": "/src/assets/images/logos/figma.svg"
     },
     {
       "name": "Inkscape",
-      "logo": "/assets/img/logos/inkscape.svg"
+      "logo": "/src/assets/images/logos/inkscape.svg"
     },
     {
       "name": "Google Maps",
-      "logo": "/assets/img/logos/google-maps.svg"
+      "logo": "/src/assets/images/logos/google-maps.svg"
     },
     {
       "name": "Leaflet",
-      "logo": "/assets/img/logos/leaflet.svg"
+      "logo": "/src/assets/images/logos/leaflet.svg"
     },
     {
       "name": "Webpack",
-      "logo": "/assets/img/logos/webpack.svg"
+      "logo": "/src/assets/images/logos/webpack.svg"
     }
   ]
 }
