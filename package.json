@@ -34,7 +34,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.13",
-    "riu-component": "^1.0.0",
     "riu-neumorphism": "^1.1.1"
   }
 }

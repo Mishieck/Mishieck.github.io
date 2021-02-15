@@ -1,10 +1,13 @@
-import { riuComponent } from "riu-component";
 import { riuNeumorphism } from "riu-neumorphism";
+import { page } from "./assets/components/page.js";
+import { app } from "./assets/components/app.js";
 
 
 const init = async () => {
-  console.info(riuComponent);
-  console.info(riuNeumorphism);
+  window.$app = await app();
+  const $Page = await page();
+  await $Page.render("#page");
+  riuNeumorphism();
 };
 
-window.addEventListener("load", init);
+window.addEventListener("DOMContentLoaded", init);

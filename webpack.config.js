@@ -1,9 +1,12 @@
 const path = require('path');
+const webpack = require('webpack');
 
+const DIST_PATH = path.resolve(__dirname, './dist');
+const ASSET_PATH = process.env.ASSET_PATH || '/';
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: path.resolve(__dirname, './src/index.js'),
   module: {
     rules: [
@@ -23,15 +26,18 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new MiniCssExtractPlugin(),
-  ],
   resolve: {
     extensions: ['*', '.js']
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: DIST_PATH,
     filename: 'index.js',
-    publicPath: "/"
-  }
+    publicPath: ASSET_PATH
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH),
+    }),
+    new MiniCssExtractPlugin(),
+  ]
 };
