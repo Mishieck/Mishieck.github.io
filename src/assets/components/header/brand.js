@@ -62,7 +62,7 @@ const styles = `
       width: 15vw;
     }
   
-    [name="logo-wrapper"]:hover .logo {
+    [name="logo-wrapper"]:hover [name="logo"] {
       width: 16.5vw;
     }
   }
@@ -80,7 +80,7 @@ const styles = `
       width: 8vw;
     }
     
-    [name="logo-wrapper"]:hover .logo {
+    [name="logo-wrapper"]:hover [name="logo"] {
       width: 8.8vw;
     }
     
