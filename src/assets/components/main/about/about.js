@@ -20,6 +20,11 @@ const markup = `
         </paragraph>
         <paragraph html="p">
           I authered 
+          <link html="a" href="https://github.com/Mishieck/jsonat#readme" title="JSONAT" target="_blank">
+            JSONAT
+          </link>, 
+          a JavaScript library.
+          I also authered 
           <link html="a" href="https://github.com/Mishieck/riu-neumorphism#readme" title="RIU Neumorphism" target="_blank">
             RIU Neumorphism
           </link>, 
@@ -57,6 +62,10 @@ const styles = `
     margin: 0;
     padding-top: 5vw;
     color: var(--dark-color);
+  }
+
+  [name="text"] [xml="link"]:hover {
+    text-decoration: underline;
   }
   
   @media (min-width: 576px) {
