@@ -11,7 +11,7 @@ const markup = `
         </link>
       </logo-wrapper>
       <name riu-src="name" title="name">Mishieck Mwale</name>
-      <occupation html="h2">Software Engineer and Graphics Designer</occupation>
+      <description html="h2">Software Engineer and Graphics Designer</description>
     </wrapper>
   </brand>
 `;
