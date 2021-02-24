@@ -106,7 +106,7 @@ export const about = async ({ link, name, icon }) => {
     components: { cube }
   };
 
-  const schema = { markup, styles, utils };
+  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
   return $riu(schema);
 };
 

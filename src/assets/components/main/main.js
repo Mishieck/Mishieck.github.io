@@ -53,7 +53,7 @@ export const main = async ({ link, name, icon }) => {
     components: { boundary, about, skills }
   };
 
-  const schema = { markup, styles, utils };
+  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
   return $riu(schema);
 };
 

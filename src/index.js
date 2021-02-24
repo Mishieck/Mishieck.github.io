@@ -1,4 +1,5 @@
 import { riuNeumorphism } from "riu-neumorphism";
+import "prefixfree";
 import { page } from "./assets/components/page.js";
 import { app } from "./assets/components/app.js";
 

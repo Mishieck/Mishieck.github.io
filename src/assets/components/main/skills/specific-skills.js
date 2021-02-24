@@ -76,7 +76,7 @@ export const specificSkills = async () => {
     methods: { mapper }
   };
 
-  const schema = { markup, styles, utils };
+  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
   return $riu(schema);
 };
 

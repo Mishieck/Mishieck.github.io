@@ -111,7 +111,7 @@ const styles = `
 `;
 
 export const name = async () => {
-  const schema = { markup, styles };
+  const schema = { markup, styles: PrefixFree.prefixCSS(styles) };
   return $riu(schema);
 };
 

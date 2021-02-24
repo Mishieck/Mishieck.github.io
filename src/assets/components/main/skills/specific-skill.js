@@ -93,6 +93,6 @@ export const specificSkill = async ({ name, logo }) => {
     </skill>
   `;
 
-  const schema = { markup, styles };
+  const schema = { markup, styles: PrefixFree.prefixCSS(styles) };
   return $riu(schema);
 };

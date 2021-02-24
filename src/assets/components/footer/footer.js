@@ -14,7 +14,7 @@ export const footer = async ({ link, name, icon }) => {
       text-align: center;
     }
   `;
-  const schema = { markup, styles };
+  const schema = { markup, styles: PrefixFree.prefixCSS(styles) };
   return $riu(schema);
 };
 

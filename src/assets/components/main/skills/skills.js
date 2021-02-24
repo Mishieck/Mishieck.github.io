@@ -54,7 +54,7 @@ export const skills = async () => {
     components: { mainSkills, specificSkills }
   };
 
-  const schema = { markup, styles, utils };
+  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
   return $riu(schema);
 };
 

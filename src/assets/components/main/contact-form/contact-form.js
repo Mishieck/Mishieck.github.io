@@ -14,7 +14,7 @@ export const contactForm = async ({ link, name, icon }) => {
   `;
 
   const styles = ``;
-  const schema = { markup, styles };
+  const schema = { markup, styles: PrefixFree.prefixCSS(styles) };
   return $riu(schema);
 };
 

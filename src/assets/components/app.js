@@ -34,6 +34,6 @@ const styles = `
 
 export const app = async () => {
   const props = { id: "app" };
-  const schema = { scope: document, styles };
+  const schema = { scope: document, styles: PrefixFree.prefixCSS(styles) };
   return $riu(schema);
 };
