@@ -1,4 +1,5 @@
 import { $riu } from "riu-component";
+import { prefixfree } from "prefixfree";
 import { mainSkill } from "./main-skill.js";
 
 
@@ -71,6 +72,8 @@ export const mainSkills = async ({ link, name, icon }) => {
   const utils = {
     methods: { mapper }
   };
+
+  console.info(prefixfree);
 
   const schema = { markup, styles, utils };
   return $riu(schema);

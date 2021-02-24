@@ -3,7 +3,6 @@ const webpack = require('webpack');
 
 const DIST_PATH = path.resolve(__dirname, './dist');
 const ASSET_PATH = process.env.ASSET_PATH || '/';
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: "development",
@@ -14,15 +13,6 @@ module.exports = {
         test: /\.(js)$/,
         exclude: /node_modules/,
         use: ["babel-loader"]
-      },
-      {
-        test: /\.css$/i,
-        exclude: /node_modules/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-          'postcss-loader',
-        ],
       }
     ]
   },
@@ -38,6 +28,5 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH),
     }),
-    new MiniCssExtractPlugin(),
   ]
 };
