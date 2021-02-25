@@ -7,7 +7,6 @@ const styles = `
     width: 90vw;
     display: flex;
     align-items: center;
-    gap: 3vw;
     color: var(--dark-color);
     transition: color 0.4s;
   }
@@ -27,6 +26,10 @@ const styles = `
     filter: invert(52%) sepia(60%) saturate(523%) hue-rotate(70deg) brightness(98%) contrast(90%);
   }
 
+  [xml="name"] {
+    margin-left: 3vw;
+  }
+
   @media (min-width: 576px) {
     [xml="name"] {
       font-size: 1.2rem;
@@ -34,8 +37,8 @@ const styles = `
   }
 
   @media (min-width: 768px) {
-    :scope {
-      gap: 2vw;
+    [xml="name"] {
+      margin-left: 2vw;
     }
 
     [xml="icon"] {

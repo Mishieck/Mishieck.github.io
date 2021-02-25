@@ -23,32 +23,20 @@ const styles = `
     margin: 0;
     padding: 0;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
     gap: 5vw;
+    list-style-type: none;
     background-color: var(--secondary-color);
-  }
-
-  @media (min-width: 576px) {
-    [xml="list"] {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  
-  @media (min-width: 768px) {
-    [xml="list"] {
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
   }
   
   @media (min-width: 992px) {
-    [xml="body"] {
-      padding: 2vw 0;
+    [xml="list"] {
+      grid-template-columns: repeat(2, 1fr);
     }
-  
+
     [xml="list"] {
       padding: 5vw 0;
     }
