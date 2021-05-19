@@ -15,7 +15,7 @@ const markup = `
       <text>
         <paragraph html="p">
           I am mainly a software engineer and graphics designer. 
-          I also do database and embedded systems development. 
+          I also do database development. 
           In the JavaScript community I am an open source contributor.
         </paragraph>
         <paragraph html="p">

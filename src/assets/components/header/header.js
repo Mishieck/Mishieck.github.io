@@ -129,7 +129,7 @@ const contactLinks = {
       icon: "phone"
     },
     {
-      link: "https://wa.me/whatsappphonenumber/?text=Hi.",
+      link: "https://wa.me/+260950434361/?text=Hi.",
       name: "WhatsApp",
       icon: "whatsapp"
     },
