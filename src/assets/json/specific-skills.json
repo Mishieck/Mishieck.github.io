@@ -13,6 +13,10 @@
       "logo": "/src/assets/images/logos/javascript.svg"
     },
     {
+      "name": "TypeScript",
+      "logo": "/src/assets/images/logos/typescript.svg"
+    },
+    {
       "name": "Node.js",
       "logo": "/src/assets/images/logos/node-js.svg"
     },
