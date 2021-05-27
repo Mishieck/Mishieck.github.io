@@ -1,10 +1,17 @@
-import { $riu } from "riu-component";
+import {$riu} from "riu-component";
 
-
-export const footer = async ({ link, name, icon }) => {
+export const footer = async ({link, name, icon}) => {
   const markup = `
     <footer riu-ml="xml" html="footer">
-    &#169; 2020-2021, <b html="b">Mishieck Mwale</b>.
+      <paragraph html="p">
+        &#169; 2020-2021, <b html="b">Mishieck Mwale</b>.
+      </paragraph>
+      <paragraph html="p">
+        Icons by 
+        <link html="a" href="http://icons8.com/" target="_blank">ICONS8</link>
+        and 
+        <link html="a" href="http://iconfinder.com/" target="_blank" rel="noopener noreferrer">ICONFINDER</link>.
+      </paragraph>
     </footer>
   `;
 
@@ -14,7 +21,6 @@ export const footer = async ({ link, name, icon }) => {
       text-align: center;
     }
   `;
-  const schema = { markup, styles: PrefixFree.prefixCSS(styles) };
+  const schema = {markup, styles: PrefixFree.prefixCSS(styles)};
   return $riu(schema);
 };
-
