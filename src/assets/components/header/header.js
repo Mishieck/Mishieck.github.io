@@ -3,7 +3,6 @@ import { pyramid } from "./pyramid.js";
 import { brand } from "./brand.js";
 import { contactLink } from "./contact-link.js";
 
-
 const markup = `
   <header riu-ml="xml" html="header">
     <picture-area class="picture-area">
@@ -151,7 +150,7 @@ const contactLinks = {
       icon: "facebook"
     },
     {
-      link: "https://twitter.com/mishieck_mwale/",
+      link: "https://twitter.com/mishieck_dev/",
       name: "Twitter",
       icon: "twitter"
     },
@@ -168,16 +167,15 @@ const contactLinks = {
   ]
 };
 
-
-export const header = async props => {
-  const linkCreator = async props => {
+export const header = async (props) => {
+  const linkCreator = async (props) => {
     const $ButtonContact = await contactLink(props);
     return $ButtonContact.scope;
   };
 
   const mapPrimaryContacts = async () => ({ data: contactLinks.primary, creator: linkCreator });
   const mapSecondaryContacts = async () => ({ data: contactLinks.secondary, creator: linkCreator });
-  
+
   const methods = { mapPrimaryContacts, mapSecondaryContacts };
   const components = { brand, pyramid };
   const utils = { methods, components };
