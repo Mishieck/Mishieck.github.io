@@ -18,6 +18,6 @@ export const specificSkills = async () => {
     methods: { mapper }
   };
 
-  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $create(schema);
+  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  return $create(options);
 };

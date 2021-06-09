@@ -8,6 +8,6 @@ export const main = async ({ link, name, icon }) => {
     components: { boundary, about, skills }
   };
 
-  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $create(schema);
+  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  return $create(options);
 };

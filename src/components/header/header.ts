@@ -64,6 +64,6 @@ export const header = async (props) => {
   const methods = { mapPrimaryContacts, mapSecondaryContacts };
   const components = { brand, pyramid };
   const utils = { methods, components };
-  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $create(schema);
+  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  return $create(options);
 };

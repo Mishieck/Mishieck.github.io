@@ -6,6 +6,6 @@ export const about = async () => {
     components: { cube }
   };
 
-  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $create(schema);
+  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  return $create(options);
 };

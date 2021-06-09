@@ -7,6 +7,6 @@ import { boundary } from "./boundary.js";
 export const page = async () => {
   const components = { header, main, footer, boundary };
   const utils = { components };
-  const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $create(schema);
+  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  return $create(options);
 };
