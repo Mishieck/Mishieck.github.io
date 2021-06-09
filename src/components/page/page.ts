@@ -1,4 +1,4 @@
-import { $riu } from "riu-component";
+import { $create } from "odom";
 import { header } from "./header/header.js";
 import { main } from "./main/main.js";
 import { footer } from "./footer/footer.js";
@@ -8,5 +8,5 @@ export const page = async () => {
   const components = { header, main, footer, boundary };
   const utils = { components };
   const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $riu(schema);
+  return $create(schema);
 };

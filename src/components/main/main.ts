@@ -9,5 +9,5 @@ export const main = async ({ link, name, icon }) => {
   };
 
   const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $riu(schema);
+  return $create(schema);
 };

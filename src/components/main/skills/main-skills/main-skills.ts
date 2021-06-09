@@ -1,4 +1,4 @@
-import { $riu } from "riu-component";
+import { $create } from "odom";
 import { mainSkill } from "./main-skill/main-skill";
 
 export const mainSkills = async ({ link, name, icon }) => {
@@ -19,5 +19,5 @@ export const mainSkills = async ({ link, name, icon }) => {
   };
 
   const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $riu(schema);
+  return $create(schema);
 };

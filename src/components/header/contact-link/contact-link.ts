@@ -1,6 +1,6 @@
-import { $riu } from "riu-component";
+import { $create } from "odom";
 
 export const contactLink = async (props = {}) => {
   const schema = { props, markup, styles: PrefixFree.prefixCSS(styles) };
-  return $riu(schema);
+  return $create(schema);
 };

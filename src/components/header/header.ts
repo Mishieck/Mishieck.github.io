@@ -65,5 +65,5 @@ export const header = async (props) => {
   const components = { brand, pyramid };
   const utils = { methods, components };
   const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $riu(schema);
+  return $create(schema);
 };

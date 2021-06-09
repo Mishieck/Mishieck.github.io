@@ -1,6 +1,6 @@
-import { $riu } from "riu-component";
+import { $create } from "odom";
 
 export const pyramid = async (props) => {
   const schema = { markup, styles: PrefixFree.prefixCSS(styles) };
-  return $riu(schema);
+  return $create(schema);
 };

@@ -1,4 +1,4 @@
-import { $riu } from "riu-component";
+import { $create } from "odom";
 import { cube } from "./cube/cube";
 
 export const about = async () => {
@@ -7,5 +7,5 @@ export const about = async () => {
   };
 
   const schema = { markup, styles: PrefixFree.prefixCSS(styles), utils };
-  return $riu(schema);
+  return $create(schema);
 };
