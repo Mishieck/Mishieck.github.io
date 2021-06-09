@@ -1,0 +1,4 @@
+<main-skill riu-ml="xml" html="li" riu-neu="sm" title="${name}">
+  <icon html="img" src="/src/assets/images/check.svg" class="icon" alt="check" />
+  <name>${name}</name>
+</main-skill>

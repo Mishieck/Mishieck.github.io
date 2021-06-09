@@ -1,0 +1,8 @@
+<main-skills riu-ml="xml" html="section" class="skills" id="main-skills">
+  <heading>
+    <h3 html="h3">Main Skills</h3>
+  </heading>
+  <body class="body">
+    <list html="ul" riu-map="@methods.mapper" riu-neu="xs"></list>
+  </body>
+</main-skills>

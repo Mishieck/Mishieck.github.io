@@ -1,0 +1,11 @@
+<footer riu-ml="xml" html="footer">
+  <paragraph html="p">
+    &#169; 2020-2021, <b html="b">Mishieck Mwale</b>.
+  </paragraph>
+  <paragraph html="p">
+    Icons by 
+    <link html="a" href="http://icons8.com/" target="_blank">ICONS8</link>
+    and 
+    <link html="a" href="http://iconfinder.com/" target="_blank" rel="noopener noreferrer">ICONFINDER</link>.
+  </paragraph>
+</footer>

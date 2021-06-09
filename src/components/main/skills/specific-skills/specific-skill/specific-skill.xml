@@ -1,0 +1,8 @@
+<skill riu-ml="xml" html="li" riu-neu="sm radius(2rem) convex" title="${name}">
+  <square>
+    <content>
+      <logo html="img" src="${logo}" alt="${name}" />
+      <name html="h1">${name}</name>
+    </content>
+  </square>
+</skill>

@@ -1,0 +1,18 @@
+<cube riu-ml="xml" html="section">
+  <surfaces>
+    <surface class="front">
+      <image html="img" src="/src/assets/images/main-skills/web-developer.svg" alt="" />
+    </surface>
+    <surface class="right">
+      <image html="img" src="/src/assets/images/main-skills/devices.svg" alt="" />
+    </surface>
+    <surface class="back">
+      <image html="img" src="/src/assets/images/main-skills/dashboard.svg" alt="" />
+    </surface>
+    <surface class="left">
+      <image html="img" src="/src/assets/images/main-skills/server.svg" alt="" />
+    </surface>
+    <surface class="top"></surface>
+    <surface class="bottom"></surface>
+  </surfaces>
+</cube>

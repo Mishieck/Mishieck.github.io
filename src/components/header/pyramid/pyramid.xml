@@ -1,0 +1,11 @@
+<pyramid riu-ml="xml" html="section" class="circles">
+  <cylinder name="outermost">
+    <cylinder>
+      <cylinder>
+        <cylinder name="innermost">
+          <picture html="img" src="/src/assets/images/portfolio-pic.png" alt="Mishieck Mwale" />
+        </cylinder>
+      </cylinder>
+    </cylinder>
+  </cylinder>
+</pyramid>
