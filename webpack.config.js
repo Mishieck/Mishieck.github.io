@@ -9,7 +9,7 @@ const sourceMap = mode === "development" ? "eval-source-map" : "source-map";
 
 module.exports = {
   mode,
-  entry: path.resolve(__dirname, "./src/index.js"),
+  entry: path.resolve(__dirname, "./src/index.ts"),
   module: {
     rules: [
       {
