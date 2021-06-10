@@ -1,0 +1,30 @@
+.skills [xml="heading"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--secondary-heading);
+  color: var(--dark-color);
+}
+.skills [xml="body"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  :root {
+    --secondary-heading: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --secondary-heading: 1.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --secondary-heading: 2.2rem;
+  }
+}

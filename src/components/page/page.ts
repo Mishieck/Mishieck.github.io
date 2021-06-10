@@ -1,8 +1,10 @@
 import { $create } from "odom";
-import { header } from "./header/header.js";
-import { main } from "./main/main.js";
-import { footer } from "./footer/footer.js";
-import { boundary } from "./boundary.js";
+import { header } from "../header/header";
+import { main } from "../main/main";
+import { footer } from "../footer/footer";
+import { boundary } from "../boundary/boundary";
+import markup from "./page.xml";
+import styles from "./page.scss";
 
 export const page = async () => {
   const components = { header, main, footer, boundary };

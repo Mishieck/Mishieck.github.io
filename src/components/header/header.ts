@@ -1,7 +1,7 @@
 import { $create } from "odom";
 import { pyramid } from "./pyramid/pyramid";
 import { brand } from "./brand/brand";
-import { contactLink } from "./contact-link.js";
+import { contactLink } from "./contact-link/contact-link";
 import markup from "./header.xml";
 import styles from "./header.scss";
 

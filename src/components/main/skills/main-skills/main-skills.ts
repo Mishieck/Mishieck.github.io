@@ -1,5 +1,7 @@
 import { $create } from "odom";
 import { mainSkill } from "./main-skill/main-skill";
+import markup from "./main-skills.xml";
+import styles from "./main-skills.scss";
 
 export const mainSkills = async ({ link, name, icon }) => {
   const mapper = async () => {

@@ -1,0 +1,9 @@
+<skills riu-ml="xml" class="section">
+  <heading>
+    <h2 html="h2">Skills</h2>
+  </heading>
+  <body class="body">
+    <main-skills riu-src="mainSkills"></main-skills>
+    <specific-skills riu-src="specificSkills"></specific-skills>
+  </body>
+</skills>

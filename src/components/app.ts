@@ -1,7 +1,17 @@
 import { $create } from "odom";
+import { page } from "./page/page";
+import markup from "./app.xml";
+import styles from "./styles.scss";
 
 export const app = async () => {
-  const props = { id: "app" };
-  const options = { scope: document, styles: PrefixFree.prefixCSS(styles) };
+  const options = {
+    id: "app",
+    markup,
+    styles: PrefixFree.prefixCSS(styles),
+    utils: {
+      components: { page }
+    }
+  };
+
   return $create(options);
 };

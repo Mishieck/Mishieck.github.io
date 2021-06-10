@@ -1,5 +1,7 @@
 import { $create } from "odom";
-import { specificSkill } from "./specific-skill.js";
+import { specificSkill } from "./specific-skill/specific-skill";
+import markup from "./specific-skills.xml";
+import styles from "./specific-skills.scss";
 
 export const specificSkills = async () => {
   const mapper = async () => {

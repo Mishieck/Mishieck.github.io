@@ -1,5 +1,5 @@
 import { $create } from "odom";
-import { name } from "./name.js";
+import { name } from "./name/name";
 import markup from "./brand.xml";
 import styles from "./brand.scss";
 
