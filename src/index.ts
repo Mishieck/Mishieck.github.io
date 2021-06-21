@@ -1,6 +1,5 @@
 import { riuNeumorphism } from "riu-neumorphism";
-import "prefixfree";
-import { app } from "./components/app.js";
+import { app } from "./components/app";
 
 const init = async () => {
   const $app = await app();

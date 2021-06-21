@@ -9,6 +9,6 @@ export const skills = async () => {
     components: { mainSkills, specificSkills }
   };
 
-  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  const options = { markup, styles: styles, utils };
   return $create(options);
 };

@@ -1,7 +1,7 @@
-<page riu-ml="xml">
-  <header riu-src="header"></header>
-  <boundary riu-src="boundary"></boundary>
-  <main riu-src="main"></main>
-  <boundary riu-src="boundary"></boundary>
-  <footer riu-src="footer"></footer>
+<page odom-ml="xml">
+  <header odom-src="header"></header>
+  <boundary odom-src="boundary"></boundary>
+  <main odom-src="main"></main>
+  <boundary odom-src="boundary"></boundary>
+  <footer odom-src="footer"></footer>
 </page>

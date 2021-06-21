@@ -8,6 +8,6 @@ export const about = async () => {
     components: { cube }
   };
 
-  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  const options = { markup, styles: styles, utils };
   return $create(options);
 };

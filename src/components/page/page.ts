@@ -9,6 +9,6 @@ import styles from "./page.scss";
 export const page = async () => {
   const components = { header, main, footer, boundary };
   const utils = { components };
-  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  const options = { markup, styles: styles.toString(), utils };
   return $create(options);
 };

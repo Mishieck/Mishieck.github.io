@@ -5,6 +5,12 @@ import { contactLink } from "./contact-link/contact-link";
 import markup from "./header.xml";
 import styles from "./header.scss";
 
+type Props = {
+  link: string;
+  name: string;
+  icon: string;
+};
+
 const contactLinks = {
   primary: [
     {
@@ -52,8 +58,8 @@ const contactLinks = {
   ]
 };
 
-export const header = async (props) => {
-  const linkCreator = async (props) => {
+export const header = async () => {
+  const linkCreator = async (props: Props) => {
     const $ButtonContact = await contactLink(props);
     return $ButtonContact.scope;
   };
@@ -64,6 +70,6 @@ export const header = async (props) => {
   const methods = { mapPrimaryContacts, mapSecondaryContacts };
   const components = { brand, pyramid };
   const utils = { methods, components };
-  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  const options = { markup, styles: styles, utils };
   return $create(options);
 };

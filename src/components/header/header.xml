@@ -1,9 +1,9 @@
-<header riu-ml="xml" html="header">
+<header odom-ml="xml" html="header">
   <picture-area class="picture-area">
     <contacts class="primary" riu-map="@methods.mapPrimaryContacts"></contacts>
-    <pyramid riu-src="pyramid"></pyramid>
+    <pyramid odom-src="pyramid"></pyramid>
     <contacts class="secondary" riu-map="@methods.mapSecondaryContacts"></contacts>
   </picture-area>
 
-  <brand riu-src="brand"></brand>
+  <brand odom-src="brand"></brand>
 </header>

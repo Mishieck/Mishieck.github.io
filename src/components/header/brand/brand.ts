@@ -3,11 +3,11 @@ import { name } from "./name/name";
 import markup from "./brand.xml";
 import styles from "./brand.scss";
 
-export const brand = async (props) => {
+export const brand = async () => {
   const utils = {
     components: { name }
   };
 
-  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  const options = { markup, styles: styles, utils };
   return $create(options);
 };

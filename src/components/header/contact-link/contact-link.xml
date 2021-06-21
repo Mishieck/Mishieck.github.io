@@ -1,4 +1,4 @@
-<contact-link riu-ml="xml" name="${name}" title="${name}">
+<contact-link odom-ml="xml" name="${name}" title="${name}">
   <circle riu-neu="sm radius(50%)">
     <link html="a" href="${link}" target="_blank">
       <icon html="img" src="/src/assets/images/contacts/${icon}.svg" alt="${name}" title="${name}" />

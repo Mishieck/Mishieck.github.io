@@ -21,6 +21,14 @@ module.exports = {
         test: /\.ts$/,
         exclude: /node_modules/,
         use: ["ts-loader"]
+      },
+      {
+        test: /\.xml$/,
+        type: "asset/source"
+      },
+      {
+        test: /\.scss$/,
+        use: ["css-loader", "sass-loader"]
       }
     ]
   },
@@ -40,6 +48,11 @@ module.exports = {
   optimization: {
     minimize: true,
     minimizer: [new TerserPlugin()]
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 9000
   },
   devtool: sourceMap
 };

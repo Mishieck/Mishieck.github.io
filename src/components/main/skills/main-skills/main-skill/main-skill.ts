@@ -2,7 +2,15 @@ import { $create } from "odom";
 import markup from "./main-skill.xml";
 import styles from "./main-skill.scss";
 
-export const mainSkill = async ({ name }) => {
-  const options = { markup, styles: PrefixFree.prefixCSS(styles) };
+type Props = {
+  name: string;
+};
+
+export const mainSkill = async ({ name }: Props) => {
+  const utils = {
+    texts: { name }
+  };
+
+  const options = { markup, styles: styles };
   return $create(options);
 };

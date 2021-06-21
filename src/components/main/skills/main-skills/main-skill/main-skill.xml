@@ -1,4 +1,6 @@
-<main-skill riu-ml="xml" html="li" riu-neu="sm" title="${name}">
+<main-skill odom-ml="xml" html="li" riu-neu="sm" title="${name}">
   <icon html="img" src="/src/assets/images/check.svg" class="icon" alt="check" />
-  <name>${name}</name>
+  <name>
+    <text html="span" odom-text="name"></text>
+  </name>
 </main-skill>

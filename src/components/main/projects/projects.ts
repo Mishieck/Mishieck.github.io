@@ -3,6 +3,6 @@ import markup from "./projects.xml";
 import styles from "./projects.scss";
 
 export const projects = async () => {
-  const options = { markup, styles: PrefixFree.prefixCSS(styles) };
+  const options = { markup, styles: styles };
   return $create(options);
 };

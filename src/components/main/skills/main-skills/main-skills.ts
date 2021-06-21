@@ -3,9 +3,15 @@ import { mainSkill } from "./main-skill/main-skill";
 import markup from "./main-skills.xml";
 import styles from "./main-skills.scss";
 
-export const mainSkills = async ({ link, name, icon }) => {
+type Props = {
+  link: string;
+  name: string;
+  icon: string;
+};
+
+export const mainSkills = async ({ link, name, icon }: Props) => {
   const mapper = async () => {
-    const creator = async (name) => {
+    const creator = async (name: string) => {
       const $Skill = await mainSkill({ name });
       return $Skill.scope;
     };
@@ -20,6 +26,6 @@ export const mainSkills = async ({ link, name, icon }) => {
     methods: { mapper }
   };
 
-  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  const options = { markup, styles: styles, utils };
   return $create(options);
 };

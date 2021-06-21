@@ -1,10 +1,10 @@
-<about riu-ml="xml" class="section">
+<about odom-ml="xml" class="section">
   <heading>
     <h2 html="h2">About Me</h2>
   </heading>
   <body class="body">
     <cube-wrapper riu-neu="inner xl">
-      <cube riu-src="cube"></cube>
+      <cube odom-src="cube"></cube>
     </cube-wrapper>
 
     <text>

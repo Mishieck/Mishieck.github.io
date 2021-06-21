@@ -1,4 +1,4 @@
-<cube riu-ml="xml" html="section">
+<cube odom-ml="xml" html="section">
   <surfaces>
     <surface class="front">
       <image html="img" src="/src/assets/images/main-skills/web-developer.svg" alt="" />

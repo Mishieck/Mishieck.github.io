@@ -3,9 +3,14 @@ import { specificSkill } from "./specific-skill/specific-skill";
 import markup from "./specific-skills.xml";
 import styles from "./specific-skills.scss";
 
+type Props = {
+  name: string;
+  logo: string;
+};
+
 export const specificSkills = async () => {
   const mapper = async () => {
-    const creator = async (props) => {
+    const creator = async (props: Props) => {
       const $Skill = await specificSkill(props);
       return $Skill.scope;
     };
@@ -20,6 +25,6 @@ export const specificSkills = async () => {
     methods: { mapper }
   };
 
-  const options = { markup, styles: PrefixFree.prefixCSS(styles), utils };
+  const options = { markup, styles: styles, utils };
   return $create(options);
 };

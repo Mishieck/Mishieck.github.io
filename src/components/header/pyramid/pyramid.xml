@@ -1,4 +1,4 @@
-<pyramid riu-ml="xml" html="section" class="circles">
+<pyramid odom-ml="xml" html="section" class="circles">
   <cylinder name="outermost">
     <cylinder>
       <cylinder>
