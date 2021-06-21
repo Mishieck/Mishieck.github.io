@@ -9,6 +9,6 @@ export const skills = async () => {
     components: { mainSkills, specificSkills }
   };
 
-  const options = { markup, styles: styles, utils };
+  const options = { markup, styles: styles.toString(), utils };
   return $create(options);
 };

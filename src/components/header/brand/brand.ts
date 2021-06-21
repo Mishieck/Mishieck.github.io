@@ -8,6 +8,6 @@ export const brand = async () => {
     components: { name }
   };
 
-  const options = { markup, styles: styles, utils };
+  const options = { markup, styles: styles.toString(), utils };
   return $create(options);
 };

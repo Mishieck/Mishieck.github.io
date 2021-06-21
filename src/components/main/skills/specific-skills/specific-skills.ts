@@ -25,6 +25,6 @@ export const specificSkills = async () => {
     methods: { mapper }
   };
 
-  const options = { markup, styles: styles, utils };
+  const options = { markup, styles: styles.toString(), utils };
   return $create(options);
 };

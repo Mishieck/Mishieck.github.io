@@ -11,6 +11,6 @@ export const mainSkill = async ({ name }: Props) => {
     texts: { name }
   };
 
-  const options = { markup, styles: styles };
+  const options = { markup, styles: styles.toString() };
   return $create(options);
 };

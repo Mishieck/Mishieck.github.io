@@ -12,6 +12,6 @@ export const main = async () => {
     components: { boundary, about, skills }
   };
 
-  const options = { markup, styles: styles, utils };
+  const options = { markup, styles: styles.toString(), utils };
   return $create(options);
 };

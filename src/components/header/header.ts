@@ -70,6 +70,6 @@ export const header = async () => {
   const methods = { mapPrimaryContacts, mapSecondaryContacts };
   const components = { brand, pyramid };
   const utils = { methods, components };
-  const options = { markup, styles: styles, utils };
+  const options = { markup, styles: styles.toString(), utils };
   return $create(options);
 };

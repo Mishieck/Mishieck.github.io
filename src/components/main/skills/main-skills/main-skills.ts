@@ -26,6 +26,6 @@ export const mainSkills = async ({ link, name, icon }: Props) => {
     methods: { mapper }
   };
 
-  const options = { markup, styles: styles, utils };
+  const options = { markup, styles: styles.toString(), utils };
   return $create(options);
 };

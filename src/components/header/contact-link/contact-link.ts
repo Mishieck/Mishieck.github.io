@@ -3,6 +3,6 @@ import markup from "./contact-link.xml";
 import styles from "./contact-link.scss";
 
 export const contactLink = async (props = {}) => {
-  const options = { props, markup, styles: styles };
+  const options = { props, markup, styles: styles.toString() };
   return $create(options);
 };
