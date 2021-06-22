@@ -39,8 +39,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.12.13",
-    "odom": "^1.0.1",
+    "odom": "^1.1.0",
     "prefixfree": "^1.0.0",
-    "riu-neumorphism": "^1.2.1"
+    "riu-neumorphism": "^1.1.3"
   }
 }
