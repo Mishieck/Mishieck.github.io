@@ -9,21 +9,20 @@
 
     <text>
       <paragraph html="p">
-        I am mainly a software engineer and graphics designer. 
-        I also do database development. 
-        In the JavaScript community I am an open source contributor.
+        I'm a software developer, graphics designer and open source contributor (JavaScript and TypeScript).
       </paragraph>
       <paragraph html="p">
-        I authered 
-        <link html="a" href="https://github.com/Mishieck/jsonat#readme" title="JSONAT" target="_blank">
-          JSONAT
+        I've authered multiple libraries and frameworks including  
+        <link html="a" href="https://github.com/riu-web/odom" title="Odom" target="_blank">
+          Odom
         </link>, 
-        a JavaScript library.
-        I also authered 
         <link html="a" href="https://github.com/Mishieck/riu-neumorphism#readme" title="RIU Neumorphism" target="_blank">
           RIU Neumorphism
-        </link>, 
-        a JavaScript framework. 
+        </link> 
+        and 
+        <link html="a" href="https://github.com/Mishieck/parawait" title="Parawait" target="_blank">
+          Parawait
+        </link>. 
         I have developed a number of websites and web apps including 
         <link html="a" href="https://youthful-heisenberg-05cfee.netlify.app/" title="Roadal" target="_blank">
           Roadal
