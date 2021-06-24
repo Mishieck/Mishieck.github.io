@@ -8,23 +8,30 @@ type Props = {
   logo: string;
 };
 
+const createSkill = async (props: Props) => {
+  const $Skill = await specificSkill(props);
+  return $Skill.scope;
+};
+
 export const specificSkills = async () => {
-  const mapper = async () => {
-    const creator = async (props: Props) => {
-      const $Skill = await specificSkill(props);
-      return $Skill.scope;
-    };
+  const res = await fetch("/src/assets/json/specific-skills.json");
+  const skills = await res.json();
 
-    const res = await fetch("/src/assets/json/specific-skills.json");
-    const json = await res.json();
-
-    return { data: json.specificSkills, creator };
+  const attributes = {
+    '[xml="skills"]': {
+      "odom-map": /* json */ `{
+          "data": "@data.skills",
+          "createNode": "@methods.createSkill"
+        }
+      `
+    }
   };
 
   const utils = {
-    methods: { mapper }
+    data: { skills },
+    methods: { createSkill }
   };
 
-  const options = { markup, styles: styles.toString(), utils };
+  const options = { markup, styles: styles.toString(), attributes, utils };
   return $create(options);
 };

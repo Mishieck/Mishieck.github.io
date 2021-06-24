@@ -3,6 +3,6 @@
     <h3 html="h3">Specific Skills</h3>
   </heading>
   <body html="section" class="body">
-    <list html="ul" riu-map="@methods.mapper"></list>
+    <skills html="ul" odom-map=""></skills>
   </body>
 </specific-skills>

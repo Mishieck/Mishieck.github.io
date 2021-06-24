@@ -1,7 +1,7 @@
 .section > [xml="heading"] {
   text-align: center;
   font-size: var(--primary-heading);
-  color: var(--dark-color);
+  color: var(--dark);
 }
 
 .section {
@@ -14,13 +14,15 @@
 }
 
 @media (min-width: 576px) {
-  :root {
+  :scope {
     --primary-heading: 1.7rem;
+    --secondary-heading: 1.3rem;
   }
 }
 
 @media (min-width: 768px) {
-  :root {
+  :scope {
     --primary-heading: 2rem;
+    --secondary-heading: 1.5rem;
   }
 }

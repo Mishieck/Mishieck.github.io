@@ -3,29 +3,30 @@ import { mainSkill } from "./main-skill/main-skill";
 import markup from "./main-skills.xml";
 import styles from "./main-skills.scss";
 
-type Props = {
-  link: string;
-  name: string;
-  icon: string;
+const createSkill = async (name: string) => {
+  const $skill = await mainSkill({ name });
+  return $skill.scope;
 };
 
-export const mainSkills = async ({ link, name, icon }: Props) => {
-  const mapper = async () => {
-    const creator = async (name: string) => {
-      const $Skill = await mainSkill({ name });
-      return $Skill.scope;
-    };
+export const mainSkills = async () => {
+  const res = await fetch("/src/assets/json/main-skills.json");
+  const skills = await res.json();
 
-    const res = await fetch("/src/assets/json/main-skills.json");
-    const json = await res.json();
-
-    return { data: json.mainSkills, creator };
+  const attributes = {
+    '[xml="skills"]': {
+      "odom-map": /* json */ `{
+          "data": "@data.skills",
+          "createNode": "@methods.createSkill"
+        }
+      `
+    }
   };
 
   const utils = {
-    methods: { mapper }
+    data: { skills },
+    methods: { createSkill }
   };
 
-  const options = { markup, styles: styles.toString(), utils };
+  const options = { markup, styles: styles.toString(), attributes, utils };
   return $create(options);
 };

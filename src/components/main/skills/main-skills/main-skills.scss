@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-[xml="list"] {
+[xml="skills"] {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -17,11 +17,11 @@
 }
 
 @media (min-width: 992px) {
-  [xml="list"] {
+  [xml="skills"] {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  [xml="list"] {
+  [xml="skills"] {
     padding: 5vw 0;
   }
 }

@@ -1,9 +1,9 @@
 <pyramid odom-ml="xml" html="section" class="circles">
-  <cylinder name="outermost">
+  <cylinder>
     <cylinder>
       <cylinder>
-        <cylinder name="innermost">
-          <picture html="img" src="/src/assets/images/portfolio-pic.png" alt="Mishieck Mwale" />
+        <cylinder>
+          <picture html="img" src="@data.pictureSrc" alt="Mishieck Mwale" />
         </cylinder>
       </cylinder>
     </cylinder>

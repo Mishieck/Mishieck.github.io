@@ -1,76 +1,74 @@
-{
-  "specificSkills": [
-    {
-      "name": "HTML5",
-      "logo": "/src/assets/images/logos/html5.svg"
-    },
-    {
-      "name": "CSS3",
-      "logo": "/src/assets/images/logos/css3.svg"
-    },
-    {
-      "name": "JavaScript",
-      "logo": "/src/assets/images/logos/javascript.svg"
-    },
-    {
-      "name": "TypeScript",
-      "logo": "/src/assets/images/logos/typescript.svg"
-    },
-    {
-      "name": "Node.js",
-      "logo": "/src/assets/images/logos/node-js.svg"
-    },
-    {
-      "name": "C++",
-      "logo": "/src/assets/images/logos/cpp.svg"
-    },
-    {
-      "name": "Rust",
-      "logo": "/src/assets/images/logos/rust.svg"
-    },
-    {
-      "name": "MongoDB",
-      "logo": "/src/assets/images/logos/mongodb.svg"
-    },
-    {
-      "name": "MySQL",
-      "logo": "/src/assets/images/logos/mysql.svg"
-    },
-    {
-      "name": "jQuery",
-      "logo": "/src/assets/images/logos/jquery.svg"
-    },
-    {
-      "name": "Bootstrap",
-      "logo": "/src/assets/images/logos/bootstrap.svg"
-    },
-    {
-      "name": "Sass",
-      "logo": "/src/assets/images/logos/sass.svg"
-    },
-    {
-      "name": "Git",
-      "logo": "/src/assets/images/logos/git.svg"
-    },
-    {
-      "name": "Figma",
-      "logo": "/src/assets/images/logos/figma.svg"
-    },
-    {
-      "name": "Inkscape",
-      "logo": "/src/assets/images/logos/inkscape.svg"
-    },
-    {
-      "name": "Google Maps",
-      "logo": "/src/assets/images/logos/google-maps.svg"
-    },
-    {
-      "name": "Leaflet",
-      "logo": "/src/assets/images/logos/leaflet.svg"
-    },
-    {
-      "name": "Webpack",
-      "logo": "/src/assets/images/logos/webpack.svg"
-    }
-  ]
-}
+[
+  {
+    "name": "HTML5",
+    "logo": "/src/assets/images/logos/html5.svg"
+  },
+  {
+    "name": "CSS3",
+    "logo": "/src/assets/images/logos/css3.svg"
+  },
+  {
+    "name": "JavaScript",
+    "logo": "/src/assets/images/logos/javascript.svg"
+  },
+  {
+    "name": "TypeScript",
+    "logo": "/src/assets/images/logos/typescript.svg"
+  },
+  {
+    "name": "Node.js",
+    "logo": "/src/assets/images/logos/node-js.svg"
+  },
+  {
+    "name": "C++",
+    "logo": "/src/assets/images/logos/cpp.svg"
+  },
+  {
+    "name": "Rust",
+    "logo": "/src/assets/images/logos/rust.svg"
+  },
+  {
+    "name": "MongoDB",
+    "logo": "/src/assets/images/logos/mongodb.svg"
+  },
+  {
+    "name": "MySQL",
+    "logo": "/src/assets/images/logos/mysql.svg"
+  },
+  {
+    "name": "jQuery",
+    "logo": "/src/assets/images/logos/jquery.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "logo": "/src/assets/images/logos/bootstrap.svg"
+  },
+  {
+    "name": "Sass",
+    "logo": "/src/assets/images/logos/sass.svg"
+  },
+  {
+    "name": "Git",
+    "logo": "/src/assets/images/logos/git.svg"
+  },
+  {
+    "name": "Figma",
+    "logo": "/src/assets/images/logos/figma.svg"
+  },
+  {
+    "name": "Inkscape",
+    "logo": "/src/assets/images/logos/inkscape.svg"
+  },
+  {
+    "name": "Google Maps",
+    "logo": "/src/assets/images/logos/google-maps.svg"
+  },
+  {
+    "name": "Leaflet",
+    "logo": "/src/assets/images/logos/leaflet.svg"
+  },
+  {
+    "name": "Webpack",
+    "logo": "/src/assets/images/logos/webpack.svg"
+  }
+]

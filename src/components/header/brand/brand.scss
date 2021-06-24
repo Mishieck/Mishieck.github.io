@@ -1,4 +1,4 @@
-> [name="wrapper"] {
+> [xml="wrapper"] {
   margin-top: 10vw;
   display: flex;
   flex-direction: column;
@@ -7,28 +7,28 @@
   background-color: var(--secondary-color);
 }
 
-[name="logo-wrapper"] {
+[xml="logo-wrapper"] {
   padding: 3vw;
   transition: box-shadow 0.4s;
 }
 
-[name="logo"] {
+[xml="logo"] {
   object-fit: contain;
   width: 20vw;
   transition: width 0.4s;
 }
 
-[name="logo-wrapper"]:hover [name="logo"] {
+[xml="logo-wrapper"]:hover [xml="logo"] {
   width: 22vw;
 }
 
 [xml="name"],
-[name="description"] {
+[xml="description"] {
   text-align: center;
-  color: var(--dark-color);
+  color: var(--dark);
 }
 
-[name="description"] {
+[xml="description"] {
   margin: 0;
   padding: 1.25vw;
   font-size: 5vw;
@@ -36,37 +36,37 @@
 }
 
 @media (min-width: 576px) {
-  [name="logo-wrapper"] {
+  [xml="logo-wrapper"] {
     padding: 1.5vw;
   }
 
-  [name="logo"] {
+  [xml="logo"] {
     width: 15vw;
   }
 
-  [name="logo-wrapper"]:hover [name="logo"] {
+  [xml="logo-wrapper"]:hover [xml="logo"] {
     width: 16.5vw;
   }
 }
 
 @media (min-width: 992px) {
-  [name="wrapper"] {
+  [xml="wrapper"] {
     margin-top: 0;
   }
 
-  [name="logo-wrapper"] {
+  [xml="logo-wrapper"] {
     padding: 0.8vw;
   }
 
-  [name="logo"] {
+  [xml="logo"] {
     width: 8vw;
   }
 
-  [name="logo-wrapper"]:hover [name="logo"] {
+  [xml="logo-wrapper"]:hover [xml="logo"] {
     width: 8.8vw;
   }
 
-  [name="description"] {
+  [xml="description"] {
     padding: 0.1vw;
     font-size: 1.5vw;
   }

@@ -1,7 +1,7 @@
-<contact-link odom-ml="xml" name="${name}" title="${name}">
+<contact-link odom-ml="xml" title="${name}">
   <circle riu-neu="sm radius(50%)">
-    <link html="a" href="${link}" target="_blank">
-      <icon html="img" src="/src/assets/images/contacts/${icon}.svg" alt="${name}" title="${name}" />
+    <link html="a" href="@props.link" target="_blank">
+      <icon html="img" src="@props.icon" alt="@props.name" title="@props.name" />
     </link>
   </circle>
 </contact-link>

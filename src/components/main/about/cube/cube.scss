@@ -12,13 +12,13 @@
   perspective: 1500px;
 }
 
-[name="surfaces"] {
+[xml="surfaces"] {
   position: relative;
   transform-style: preserve-3d;
   animation: rotate 30s linear infinite;
 }
 
-[name="surfaces"] > [name="surface"] {
+[xml="surfaces"] > [xml="surface"] {
   position: absolute;
   width: var(--cube-length);
   height: var(--cube-length);
@@ -29,31 +29,31 @@
   background: rgba(255, 255, 255, 1);
 }
 
-[name="surfaces"] > [name="surface"].front {
+[xml="surfaces"] > [xml="surface"].front {
   transform: translateX(var(--translation)) translateY(var(--translation)) translateZ(var(--translation-pos));
 }
 
-[name="surfaces"] > [name="surface"].back {
+[xml="surfaces"] > [xml="surface"].back {
   transform: translateX(var(--translation)) translateY(var(--translation)) translateZ(var(--translation));
 }
 
-[name="surfaces"] > [name="surface"].right {
+[xml="surfaces"] > [xml="surface"].right {
   transform: translateY(var(--translation)) rotateY(90deg);
 }
 
-[name="surfaces"] > [name="surface"].left {
+[xml="surfaces"] > [xml="surface"].left {
   transform: translateY(var(--translation)) translateX(var(--cube-length-neg)) rotateY(90deg);
 }
 
-[name="surfaces"] > [name="surface"].top {
+[xml="surfaces"] > [xml="surface"].top {
   transform: translateX(var(--translation)) translateY(var(--cube-length-neg)) rotateX(90deg);
 }
 
-[name="surfaces"] > [name="surface"].bottom {
+[xml="surfaces"] > [xml="surface"].bottom {
   transform: translateX(var(--translation)) rotateX(90deg);
 }
 
-[name="surfaces"] > [name="surface"] > [xml="image"] {
+[xml="surfaces"] > [xml="surface"] > [xml="image"] {
   object-fit: contain;
   max-width: 80%;
   max-height: 80%;
