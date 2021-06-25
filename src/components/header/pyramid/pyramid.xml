@@ -2,8 +2,10 @@
   <cylinder>
     <cylinder>
       <cylinder>
-        <cylinder>
-          <picture html="img" src="@data.pictureSrc" alt="Mishieck Mwale" />
+        <cylinder class="innermost">
+          <circle>
+            <picture html="img" src="@data.pictureSrc" alt="Mishieck Mwale" />
+          </circle>
         </cylinder>
       </cylinder>
     </cylinder>

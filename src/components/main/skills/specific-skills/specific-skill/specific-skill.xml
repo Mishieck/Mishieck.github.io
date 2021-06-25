@@ -1,7 +1,7 @@
-<skill odom-ml="xml" html="li" riu-neu="sm radius(2rem) convex" title="${name}">
+<skill odom-ml="xml" html="li" riu-neu="sm radius(2rem) convex" title="@props.name">
   <square>
     <content>
-      <logo html="img" src="@data.logo" alt="@data.name" />
+      <logo html="img" src="@props.logo" alt="@props.name" />
       <name html="h1">
         <text html="span" odom-text="name"></text>
       </name>

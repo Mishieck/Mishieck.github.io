@@ -15,10 +15,6 @@
   color: var(--dark);
 }
 
-[xml="text"] [xml="link"]:hover {
-  text-decoration: underline;
-}
-
 @media (min-width: 576px) {
   [xml="text"] {
     font-size: 1.2rem;

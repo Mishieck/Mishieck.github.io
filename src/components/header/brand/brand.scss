@@ -8,18 +8,34 @@
 }
 
 [xml="logo-wrapper"] {
-  padding: 3vw;
+  width: 24vw;
   transition: box-shadow 0.4s;
+}
+
+[xml="square"] {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+[xml="link"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding: 2vw;
+  transition: padding 0.2s;
 }
 
 [xml="logo"] {
   object-fit: contain;
-  width: 20vw;
-  transition: width 0.4s;
+  width: 100%;
 }
 
-[xml="logo-wrapper"]:hover [xml="logo"] {
-  width: 22vw;
+[xml="logo-wrapper"]:hover [xml="link"] {
+  padding: 2vw;
 }
 
 [xml="name"],
@@ -37,15 +53,7 @@
 
 @media (min-width: 576px) {
   [xml="logo-wrapper"] {
-    padding: 1.5vw;
-  }
-
-  [xml="logo"] {
-    width: 15vw;
-  }
-
-  [xml="logo-wrapper"]:hover [xml="logo"] {
-    width: 16.5vw;
+    width: 20vw;
   }
 }
 
@@ -54,16 +62,16 @@
     margin-top: 0;
   }
 
-  [xml="logo-wrapper"] {
+  [xml="link"] {
     padding: 0.8vw;
   }
 
-  [xml="logo"] {
+  [xml="logo-wrapper"] {
     width: 8vw;
   }
 
-  [xml="logo-wrapper"]:hover [xml="logo"] {
-    width: 8.8vw;
+  [xml="logo-wrapper"]:hover [xml="link"] {
+    padding: 0.6vw;
   }
 
   [xml="description"] {

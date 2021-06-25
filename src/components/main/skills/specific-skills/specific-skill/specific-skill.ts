@@ -7,12 +7,11 @@ type Props = {
   logo: string;
 };
 
-export const specificSkill = async ({ name, logo }: Props) => {
+export const specificSkill = async (props: Props) => {
   const utils = {
-    data: { name, logo },
-    texts: { name }
+    texts: { name: props.name }
   };
 
-  const options = { markup, styles: styles.toString(), utils };
+  const options = { props, markup, styles: styles.toString(), utils };
   return $create(options);
 };
