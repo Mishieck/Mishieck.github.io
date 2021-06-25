@@ -5,7 +5,7 @@
 
 ## About
 
-I am mainly a software engineer and graphics designer. I also do database development. In the JavaScript community I am an open source contributor.
+I'm a software developer, graphics designer and open source contributor (JavaScript and TypeScript).
 
 ## Contact
 
