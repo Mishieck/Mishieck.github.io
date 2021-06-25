@@ -36,7 +36,7 @@ const primaryContacts = [
 
 const secondaryContacts = [
   {
-    link: "https://www.facebook.com/mishieckmwale/",
+    link: "https://www.facebook.com/mishieckdev/",
     name: "Facebook",
     icon: "facebook"
   },
