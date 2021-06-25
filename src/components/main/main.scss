@@ -1,0 +1,28 @@
+.section > [xml="heading"] {
+  text-align: center;
+  font-size: var(--primary-heading);
+  color: var(--dark);
+}
+
+.section {
+  padding: 5vw;
+}
+
+.section > [xml="body"] {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  :scope {
+    --primary-heading: 1.7rem;
+    --secondary-heading: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  :scope {
+    --primary-heading: 2rem;
+    --secondary-heading: 1.5rem;
+  }
+}

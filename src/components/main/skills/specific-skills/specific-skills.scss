@@ -1,0 +1,42 @@
+:scope {
+  margin: 0;
+  padding: 0;
+}
+
+[xml="body"] {
+  display: flex;
+  justify-content: center;
+}
+
+[xml="skills"] {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 5vw;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 576px) {
+  [xml="skills"] {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  [xml="skills"] {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  [xml="skills"] {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  [xml="skills"] {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

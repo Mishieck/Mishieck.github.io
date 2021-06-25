@@ -1,0 +1,13 @@
+<brand odom-ml="xml">
+  <wrapper class="wrapper">
+    <logo-wrapper riu-neu="sm">
+      <square>
+        <link html="a" href="/">
+          <logo html="img" src="/src/assets/images/logo.svg" alt="Logo" title="Logo" />
+        </link>
+      </square>
+    </logo-wrapper>
+    <name odom-src="name" title="name">Mishieck Mwale</name>
+    <description html="h2">Software Engineer and Graphics Designer</description>
+  </wrapper>
+</brand>

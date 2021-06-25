@@ -1,0 +1,13 @@
+<pyramid odom-ml="xml" html="section" class="circles">
+  <cylinder>
+    <cylinder>
+      <cylinder>
+        <cylinder class="innermost">
+          <circle>
+            <picture html="img" src="@data.pictureSrc" alt="Mishieck Mwale" />
+          </circle>
+        </cylinder>
+      </cylinder>
+    </cylinder>
+  </cylinder>
+</pyramid>

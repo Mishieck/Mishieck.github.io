@@ -1,0 +1,7 @@
+<page odom-ml="xml">
+  <header odom-src="header"></header>
+  <boundary odom-src="boundary"></boundary>
+  <main odom-src="main"></main>
+  <boundary odom-src="boundary"></boundary>
+  <footer odom-src="footer"></footer>
+</page>

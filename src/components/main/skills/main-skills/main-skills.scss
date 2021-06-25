@@ -1,0 +1,27 @@
+:scope {
+  margin: 0;
+  padding: 0;
+}
+
+[xml="skills"] {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 5vw;
+  list-style-type: none;
+  background-color: var(--secondary-color);
+}
+
+@media (min-width: 992px) {
+  [xml="skills"] {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  [xml="skills"] {
+    padding: 5vw 0;
+  }
+}

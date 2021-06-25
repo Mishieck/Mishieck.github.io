@@ -1,0 +1,34 @@
+:scope {
+  --cylinder-padding: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  border-radius: 50%;
+}
+
+[xml="cylinder"] {
+  padding: var(--cylinder-padding);
+  box-shadow: var(--offset-light) var(--offset-light) var(--blur) 0px rgb(255, 255, 255, 0.4),
+    var(--offset-dark) var(--offset-dark) var(--blur) 0px rgba(0, 0, 0, 0.15);
+}
+
+[xml="picture"] {
+  object-fit: contain;
+  width: 100%;
+  background-color: #f7fff7;
+}
+
+@media (min-width: 576px) {
+  :scope {
+    --cylinder-padding: 3vw;
+  }
+}
+
+@media (min-width: 992px) {
+  :scope {
+    --cylinder-padding: 2vw;
+  }
+}

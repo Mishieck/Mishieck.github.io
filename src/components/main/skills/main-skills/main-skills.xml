@@ -1,0 +1,8 @@
+<main-skills odom-ml="xml" html="section" class="skills" id="main-skills">
+  <heading>
+    <h3 html="h3">Main Skills</h3>
+  </heading>
+  <body class="body">
+    <skills html="ul" odom-map="" riu-neu="xs"></skills>
+  </body>
+</main-skills>

@@ -1,0 +1,10 @@
+<main odom-ml="xml" html="main">
+  <about odom-src="about" html="section" class="section"></about>
+  <boundary odom-src="boundary"></boundary>
+  <skills odom-src="skills" html="section" class="section"></skills>
+  
+  <!--
+  <projects odom-src="projects" html="section" class="section"></projects>
+  <contact-form html="section" odom-src="contactForm" class="section"></contact-form>
+  -->
+</main>

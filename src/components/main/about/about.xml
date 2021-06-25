@@ -1,0 +1,40 @@
+<about odom-ml="xml" class="section">
+  <heading>
+    <h2 html="h2">About Me</h2>
+  </heading>
+  <body class="body">
+    <cube-wrapper riu-neu="inner xl">
+      <cube odom-src="cube"></cube>
+    </cube-wrapper>
+
+    <text>
+      <paragraph html="p">
+        I'm a software developer, graphics designer and open source contributor (JavaScript and TypeScript).
+      </paragraph>
+      <paragraph html="p">
+        I've authered multiple libraries and frameworks including  
+        <link html="a" href="https://github.com/riu-web/odom" title="Odom" target="_blank">
+          Odom
+        </link>, 
+        <link html="a" href="https://github.com/Mishieck/riu-neumorphism#readme" title="RIU Neumorphism" target="_blank">
+          RIU Neumorphism
+        </link> 
+        and 
+        <link html="a" href="https://github.com/Mishieck/parawait" title="Parawait" target="_blank">
+          Parawait
+        </link>. 
+        I have developed a number of websites and web apps including 
+        <link html="a" href="https://youthful-heisenberg-05cfee.netlify.app/" title="Roadal" target="_blank">
+          Roadal
+        </link>. 
+        Most of my work in graphics design is related to web development; 
+        icons, logos, mockups, prototypes, image manipulation and the like.
+      </paragraph>
+      <paragraph html="p">
+        I am open minded, always eager to learn, hardworking and always looking for better ways to do things. 
+        I am passionate about computer technologies (especially web technologies), computer graphics, 
+        Internet of Things (IoT), telecommunications, automation, machine learning and artificial intelligence.
+      </paragraph>
+    </text>
+  </body>
+</about>

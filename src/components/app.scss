@@ -1,0 +1,23 @@
+:scope {
+  --primary-color: #00ff00;
+  --secondary-color: #e7efe7;
+  --primary-heading: 1.3rem;
+  --secondary-heading: 1.1rem;
+  --dark: #004000;
+  --light: #40b040;
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--secondary-color);
+}
+
+[xml="link"] {
+  text-decoration: none;
+  color: var(--light);
+}
+
+[xml="link"]:hover {
+  text-decoration: underline;
+}

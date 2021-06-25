@@ -1,0 +1,48 @@
+[xml="cube-wrapper"] {
+  min-height: 90vw;
+  position: relative;
+}
+
+[xml="body"] {
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-color);
+}
+
+[xml="text"] {
+  margin: 0;
+  padding-top: 5vw;
+  color: var(--dark);
+}
+
+@media (min-width: 576px) {
+  [xml="text"] {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  [xml="body"] {
+    flex-direction: row !important;
+  }
+
+  [xml="body"] > * {
+    width: 50%;
+  }
+
+  [xml="cube-wrapper"] {
+    width: 45vw;
+    min-height: 42vw;
+  }
+
+  [xml="text"] {
+    padding: 0 0 0 5vw;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  [xml="text"] {
+    font-size: 1.6rem;
+  }
+}

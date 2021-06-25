@@ -1,0 +1,9 @@
+<skills odom-ml="xml" class="section">
+  <heading>
+    <h2 html="h2">Skills</h2>
+  </heading>
+  <body class="body">
+    <main-skills odom-src="mainSkills"></main-skills>
+    <specific-skills odom-src="specificSkills"></specific-skills>
+  </body>
+</skills>
