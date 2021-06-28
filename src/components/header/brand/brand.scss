@@ -14,6 +14,10 @@
 [xml="logo-wrapper"] {
   width: 24vw;
   transition: box-shadow 0.4s;
+
+  &:hover [xml="link"] {
+    padding: 2vw;
+  }
 }
 
 [xml="square"] {
@@ -29,10 +33,6 @@
 [xml="logo"] {
   object-fit: contain;
   width: 100%;
-}
-
-[xml="logo-wrapper"]:hover [xml="link"] {
-  padding: 2vw;
 }
 
 [xml="name"],
@@ -64,10 +64,10 @@
 
   [xml="logo-wrapper"] {
     width: 8vw;
-  }
 
-  [xml="logo-wrapper"]:hover [xml="link"] {
-    padding: 0.6vw;
+    &:hover [xml="link"] {
+      padding: 0.6vw;
+    }
   }
 
   [xml="description"] {
