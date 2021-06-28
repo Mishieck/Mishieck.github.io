@@ -68,10 +68,26 @@ export const header = async () => {
   const components = { brand, pyramid };
   const utils = { data, methods, components };
 
+  const attributes = {
+    '[xml="contacts"].primary': {
+      "odom-map": /* json */ `{
+        "data": "@data.primaryContacts",
+        "createNode": "@methods.createLink"
+      }`
+    },
+    '[xml="contacts"].secondary': {
+      "odom-map": /* json */ `{
+        "data": "@data.secondaryContacts",
+        "createNode": "@methods.createLink"
+      }`
+    }
+  };
+
   return $create({
     id: "mishieck-github-io-header",
     markup,
     styles: styles.toString(),
+    attributes,
     utils
   });
 };

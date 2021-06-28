@@ -1,8 +1,8 @@
 <header odom-ml="xml" html="header">
   <picture-area class="picture-area">
-    <contacts class="primary" odom-map='{"data": "@data.primaryContacts", "createNode": "@methods.createLink"}'></contacts>
+    <contacts class="primary" odom-map=""></contacts>
     <pyramid odom-src="pyramid"></pyramid>
-    <contacts class="secondary" odom-map='{"data": "@data.secondaryContacts", "createNode": "@methods.createLink"}'></contacts>
+    <contacts class="secondary" odom-map=""></contacts>
   </picture-area>
 
   <brand odom-src="brand"></brand>
