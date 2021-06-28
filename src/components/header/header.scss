@@ -1,9 +1,5 @@
 :scope {
-  --offset-dark: 4px;
-  --offset-light: -4px;
-  --blur: 8px;
   --contact-displacement: 5vw;
-  --circle-border-color: #e0f0e0;
   margin: 0;
   padding: 5vw;
   width: 100%;
@@ -82,11 +78,11 @@
     flex-direction: row !important;
   }
 
-  > [xml="picture-area"] {
+  [xml="picture-area"] {
     width: 60%;
   }
 
-  > [xml="brand"] {
+  [xml="brand"] {
     width: 40%;
   }
 }
