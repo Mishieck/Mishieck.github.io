@@ -15,14 +15,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-[xml="square"]:hover {
-  color: colors.$primary;
-}
+  &:hover {
+    color: colors.$primary;
 
-[xml="square"]:hover [xml="logo"] {
-  width: 70%;
+    [xml="logo"] {
+      width: 70%;
+    }
+  }
 }
 
 [xml="content"] {

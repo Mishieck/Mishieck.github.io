@@ -8,6 +8,14 @@
   align-items: center;
   color: colors.$dark;
   transition: color 0.4s;
+
+  &:hover {
+    color: colors.$primary;
+
+    [xml="icon"] {
+      filter: invert(52%) sepia(60%) saturate(523%) hue-rotate(70deg) brightness(98%) contrast(90%);
+    }
+  }
 }
 
 [xml="icon"] {
@@ -15,14 +23,6 @@
   width: 24px;
   transition: filter 0.4s;
   filter: invert(12%) sepia(51%) saturate(4446%) hue-rotate(101deg) brightness(95%) contrast(104%);
-}
-
-:scope:hover {
-  color: colors.$primary;
-}
-
-:scope:hover [xml="icon"] {
-  filter: invert(52%) sepia(60%) saturate(523%) hue-rotate(70deg) brightness(98%) contrast(90%);
 }
 
 [xml="name"] {
