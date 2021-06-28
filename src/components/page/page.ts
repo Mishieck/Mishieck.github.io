@@ -9,6 +9,11 @@ import styles from "./page.scss";
 export const page = async () => {
   const components = { header, main, footer, boundary };
   const utils = { components };
-  const options = { markup, styles: styles.toString(), utils };
-  return $create(options);
+
+  return $create({
+    id: "mishieck-github-io-page",
+    markup,
+    styles: styles.toString(),
+    utils
+  });
 };

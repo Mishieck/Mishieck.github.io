@@ -9,6 +9,10 @@ export const skills = async () => {
     components: { mainSkills, specificSkills }
   };
 
-  const options = { markup, styles: styles.toString(), utils };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-skills",
+    markup,
+    styles: styles.toString(),
+    utils
+  });
 };

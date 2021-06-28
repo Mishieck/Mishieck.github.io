@@ -11,6 +11,11 @@ export const mainSkill = async (props: Props) => {
     texts: { name: props.name }
   };
 
-  const options = { props, markup, styles: styles.toString(), utils };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-main-skill",
+    props,
+    markup,
+    styles: styles.toString(),
+    utils
+  });
 };

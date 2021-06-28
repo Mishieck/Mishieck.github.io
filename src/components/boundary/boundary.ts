@@ -3,6 +3,6 @@ import markup from "./boundary.xml";
 import styles from "./boundary.scss";
 
 export const boundary = async () => {
-  const options = { markup, styles: styles.toString() };
+  const options = { id: "mishieck-github-io-boundary", markup, styles: styles.toString() };
   return $create(options);
 };

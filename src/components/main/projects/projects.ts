@@ -3,6 +3,9 @@ import markup from "./projects.xml";
 import styles from "./projects.scss";
 
 export const projects = async () => {
-  const options = { markup, styles: styles.toString() };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-projects",
+    markup,
+    styles: styles.toString()
+  });
 };

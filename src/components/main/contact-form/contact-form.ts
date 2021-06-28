@@ -3,6 +3,9 @@ import markup from "./contact-form.xml";
 import styles from "./contact-form.scss";
 
 export const contactForm = async () => {
-  const options = { markup, styles: styles.toString() };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-contact-form",
+    markup,
+    styles: styles.toString()
+  });
 };

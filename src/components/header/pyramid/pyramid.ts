@@ -9,6 +9,10 @@ export const pyramid = async () => {
     }
   };
 
-  const options = { markup, styles: styles.toString(), utils };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-pyramid",
+    markup,
+    styles: styles.toString(),
+    utils
+  });
 };

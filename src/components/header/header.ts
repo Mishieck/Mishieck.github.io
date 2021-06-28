@@ -67,6 +67,11 @@ export const header = async () => {
   const methods = { createLink };
   const components = { brand, pyramid };
   const utils = { data, methods, components };
-  const options = { markup, styles: styles.toString(), utils };
-  return $create(options);
+
+  return $create({
+    id: "mishieck-github-io-header",
+    markup,
+    styles: styles.toString(),
+    utils
+  });
 };

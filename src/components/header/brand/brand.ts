@@ -8,6 +8,10 @@ export const brand = async () => {
     components: { name }
   };
 
-  const options = { markup, styles: styles.toString(), utils };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-brand",
+    markup,
+    styles: styles.toString(),
+    utils
+  });
 };

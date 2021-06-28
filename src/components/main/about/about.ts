@@ -8,6 +8,10 @@ export const about = async () => {
     components: { cube }
   };
 
-  const options = { markup, styles: styles.toString(), utils };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-about",
+    markup,
+    styles: styles.toString(),
+    utils
+  });
 };

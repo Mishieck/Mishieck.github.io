@@ -10,6 +10,11 @@ type Props = {
 
 export const contactLink = async (props: Props) => {
   props.icon = `/src/assets/images/contacts/${props.icon}.svg`;
-  const options = { props, markup, styles: styles.toString() };
-  return $create(options);
+
+  return $create({
+    id: "mishieck-github-io-contact-link",
+    props,
+    markup,
+    styles: styles.toString()
+  });
 };

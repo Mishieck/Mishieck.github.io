@@ -12,6 +12,10 @@ export const main = async () => {
     components: { boundary, about, skills }
   };
 
-  const options = { markup, styles: styles.toString(), utils };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-main",
+    markup,
+    styles: styles.toString(),
+    utils
+  });
 };

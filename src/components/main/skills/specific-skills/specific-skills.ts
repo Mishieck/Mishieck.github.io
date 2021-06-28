@@ -32,6 +32,11 @@ export const specificSkills = async () => {
     methods: { createSkill }
   };
 
-  const options = { markup, styles: styles.toString(), attributes, utils };
-  return $create(options);
+  return $create({
+    id: "mishieck-github-io-specific-skills",
+    markup,
+    styles: styles.toString(),
+    attributes,
+    utils
+  });
 };
