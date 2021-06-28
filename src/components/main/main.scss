@@ -1,7 +1,10 @@
+@use "/src/assets/styles/color-theme" as colors;
+@use "/src/assets/styles/widths" as widths;
+
 .section > [xml="heading"] {
   text-align: center;
   font-size: var(--primary-heading);
-  color: var(--dark);
+  color: colors.$dark;
 }
 
 .section {
@@ -13,14 +16,14 @@
   flex-direction: column;
 }
 
-@media (min-width: 576px) {
+@media (min-width: widths.$sm) {
   :scope {
     --primary-heading: 1.7rem;
     --secondary-heading: 1.3rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: widths.$md) {
   :scope {
     --primary-heading: 2rem;
     --secondary-heading: 1.5rem;

@@ -1,23 +1,37 @@
+@use "/src/assets/styles/color-theme" as colors;
+@use "/src/assets/styles/widths" as widths;
+
 :scope {
-  --primary-color: #00ff00;
-  --secondary-color: #e7efe7;
   --primary-heading: 1.3rem;
   --secondary-heading: 1.1rem;
-  --dark: #004000;
-  --light: #40b040;
-  --sm: 576px;
-  --md: 768px;
-  --lg: 992px;
-  --xl: 1200px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--secondary-color);
+  color: colors.$dark;
+  background-color: colors.$light;
 }
 
 [xml="link"] {
   text-decoration: none;
-  color: var(--light);
+  color: #000040;
 }
 
 [xml="link"]:hover {
   text-decoration: underline;
+}
+
+@media (min-width: widths.$sm) {
+  :scope {
+    --secondary-heading: 1.3rem;
+  }
+}
+
+@media (min-width: widths.$md) {
+  :scope {
+    --secondary-heading: 1.6rem;
+  }
+}
+
+@media (min-width: widths.$xl) {
+  :scope {
+    --secondary-heading: 2.2rem;
+  }
 }

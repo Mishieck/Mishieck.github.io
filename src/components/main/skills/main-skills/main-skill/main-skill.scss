@@ -1,9 +1,12 @@
+@use "/src/assets/styles/color-theme" as colors;
+@use "/src/assets/styles/widths" as widths;
+
 :scope {
   padding: 3vw;
   width: 100%;
   display: flex;
   align-items: center;
-  color: var(--dark);
+  color: colors.$dark;
   transition: color 0.4s;
 }
 
@@ -15,7 +18,7 @@
 }
 
 :scope:hover {
-  color: var(--light);
+  color: colors.$primary;
 }
 
 :scope:hover [xml="icon"] {
@@ -26,13 +29,13 @@
   margin-left: 3vw;
 }
 
-@media (min-width: 576px) {
+@media (min-width: widths.$sm) {
   [xml="name"] {
     font-size: 1.2rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: widths.$md) {
   [xml="name"] {
     margin-left: 2vw;
   }
@@ -46,7 +49,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: widths.$lg) {
   :scope {
     padding: 1.5vw;
     width: 35vw;
@@ -57,7 +60,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: widths.$xl) {
   :scope {
     width: 30vw;
   }

@@ -1,3 +1,6 @@
+@use "/src/assets/styles/color-theme" as colors;
+@use "/src/assets/styles/widths" as widths;
+
 :scope {
   margin: 0;
   padding: 0;
@@ -13,10 +16,10 @@
   align-items: center;
   gap: 5vw;
   list-style-type: none;
-  background-color: var(--secondary-color);
+  background-color: colors.$light;
 }
 
-@media (min-width: 992px) {
+@media (min-width: widths.$lg) {
   [xml="skills"] {
     grid-template-columns: repeat(2, 1fr);
   }

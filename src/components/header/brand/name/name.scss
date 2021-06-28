@@ -1,84 +1,41 @@
-:scope {
-  --duration: 1.4s;
-  --delay: 0.1s;
+@use "/src/assets/styles/color-theme" as colors;
+@use "/src/assets/styles/widths" as widths;
 
+$duration: 1.4s;
+$delay: 0.1s;
+
+@mixin animation($position) {
+  animation: lighten $duration ($delay * $position) alternate infinite;
+}
+
+:scope {
   margin: 5vw 0;
   padding: 1vw;
   display: flex;
   justify-content: center;
   font-size: 10vw;
-  color: var(--lights);
+  color: colors.$dark;
 }
 
-[xml="character"]:nth-child(1) {
-  animation: lighten var(--duration) alternate infinite;
-}
-
-[xml="character"]:nth-child(2) {
-  animation: lighten var(--duration) calc(var(--delay) * 2) alternate infinite;
-}
-
-[xml="character"]:nth-child(3) {
-  animation: lighten var(--duration) calc(var(--delay) * 3) alternate infinite;
-}
-
-[xml="character"]:nth-child(4) {
-  animation: lighten var(--duration) calc(var(--delay) * 4) alternate infinite;
-}
-
-[xml="character"]:nth-child(5) {
-  animation: lighten var(--duration) calc(var(--delay) * 5) alternate infinite;
-}
-
-[xml="character"]:nth-child(6) {
-  animation: lighten var(--duration) calc(var(--delay) * 6) alternate infinite;
-}
-
-[xml="character"]:nth-child(7) {
-  animation: lighten var(--duration) calc(var(--delay) * 7) alternate infinite;
-}
-
-[xml="character"]:nth-child(8) {
-  animation: lighten var(--duration) calc(var(--delay) * 8) alternate infinite;
-}
-
-[xml="character"]:nth-child(9) {
-  animation: lighten var(--duration) calc(var(--delay) * 9) alternate infinite;
-}
-
-[xml="character"]:nth-child(10) {
-  animation: lighten var(--duration) calc(var(--delay) * 10) alternate infinite;
-}
-
-[xml="character"]:nth-child(11) {
-  animation: lighten var(--duration) calc(var(--delay) * 11) alternate infinite;
-}
-
-[xml="character"]:nth-child(12) {
-  animation: lighten var(--duration) calc(var(--delay) * 12) alternate infinite;
-}
-
-[xml="character"]:nth-child(13) {
-  animation: lighten var(--duration) calc(var(--delay) * 13) alternate infinite;
-}
-
-[xml="character"]:nth-child(14) {
-  animation: lighten var(--duration) calc(var(--delay) * 14) alternate infinite;
+@for $i from 1 to 14 {
+  [xml="character"]:nth-child(#{$i}) {
+    @include animation($i);
+  }
 }
 
 @keyframes lighten {
   0% {
-    text-shadow: 1px 1px 2px rgba(0, 64, 0, 0.67);
-    color: var(--light);
+    text-shadow: 0px 0px 0px rgba(0, 64, 0, 0.67);
+    color: colors.$dark;
   }
 
   100% {
-    text-shadow: 0px 0px 0px rgba(0, 64, 0, 0.67);
-    color: var(--dark);
+    text-shadow: 1px 1px 2px rgba(0, 64, 0, 0.67);
+    color: colors.$dark-lighter;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: widths.$lg) {
   :scope {
     margin: 2vw 0;
     padding: 0.2vw;

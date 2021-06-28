@@ -1,3 +1,5 @@
+@use "/src/assets/styles/widths" as widths;
+
 :scope {
   margin: 0;
   padding: 0;
@@ -17,25 +19,25 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-@media (min-width: 576px) {
+@media (min-width: widths.$sm) {
   [xml="skills"] {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: widths.$md) {
   [xml="skills"] {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: widths.$lg) {
   [xml="skills"] {
     grid-template-columns: repeat(5, 1fr);
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: widths.$xl) {
   [xml="skills"] {
     grid-template-columns: repeat(6, 1fr);
   }

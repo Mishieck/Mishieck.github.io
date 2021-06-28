@@ -1,36 +1,28 @@
+@use "/src/assets/styles/widths" as widths;
+@use "/src/assets/styles/mixins" as mixins;
+
 :scope {
   width: 100%;
 }
 
 [xml="square"] {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-top: 100%;
+  @include mixins.square;
 }
 
 * {
   border-radius: 50%;
 }
 
-[xml="cylinders"] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 [xml="cylinder"] {
   --cylinder-padding: 4vw;
-  --offset-dark: 4px;
-  --offset-light: -4px;
-  --blur: 8px;
+  $offset-dark: 4px;
+  $offset-light: -4px;
+  $blur: 8px;
   width: 100%;
   height: 100%;
   padding: var(--cylinder-padding);
-  box-shadow: var(--offset-light) var(--offset-light) var(--blur) 0px rgb(255, 255, 255, 0.4),
-    var(--offset-dark) var(--offset-dark) var(--blur) 0px rgba(0, 0, 0, 0.15);
+  box-shadow: $offset-light $offset-light $blur 0px rgb(255, 255, 255, 0.4),
+    $offset-dark $offset-dark $blur 0px rgba(0, 0, 0, 0.15);
 }
 
 [xml="picture"] {
@@ -39,13 +31,13 @@
   background-color: #f7fff7;
 }
 
-@media (min-width: 576px) {
+@media (min-width: widths.$sm) {
   [xml="cylinder"] {
     --cylinder-padding: 3vw;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: widths.$lg) {
   [xml="cylinder"] {
     --cylinder-padding: 2vw;
   }

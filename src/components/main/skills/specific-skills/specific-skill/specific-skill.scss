@@ -1,10 +1,13 @@
+@use "/src/assets/styles/color-theme" as colors;
+@use "/src/assets/styles/widths" as widths;
+
 :scope {
   margin: 0;
   padding: 0;
   width: 42.5vw;
   height: 42.5vw;
-  color: var(--dark);
-  background-color: var(--secondary-color);
+  color: colors.$dark;
+  background-color: colors.$light;
 }
 
 [xml="square"] {
@@ -15,7 +18,7 @@
 }
 
 [xml="square"]:hover {
-  color: var(--light);
+  color: colors.$primary;
 }
 
 [xml="square"]:hover [xml="logo"] {
@@ -43,12 +46,12 @@
   transition: color 0.4s;
 }
 
-@media (min-width: 576px) {
+@media (min-width: widths.$sm) {
   :scope {
     margin: 0;
     width: calc(80vw / 3);
     height: calc(80vw / 3);
-    background-color: var(--secondary-color);
+    background-color: colors.$light;
   }
 
   [xml="name"] {
@@ -56,21 +59,21 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: widths.$md) {
   :scope {
     width: calc(75vw / 4);
     height: calc(75vw / 4);
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: widths.$lg) {
   :scope {
     width: 14vw;
     height: 14vw;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: widths.$xl) {
   :scope {
     width: calc(65vw / 6);
     height: calc(65vw / 6);

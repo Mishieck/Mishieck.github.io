@@ -1,3 +1,6 @@
+@use "/src/assets/styles/color-theme" as colors;
+@use "/src/assets/styles/widths" as widths;
+
 [xml="cube-wrapper"] {
   min-height: 90vw;
   position: relative;
@@ -6,22 +9,22 @@
 [xml="body"] {
   margin: 0;
   padding: 0;
-  background-color: var(--secondary-color);
+  background-color: colors.$light;
 }
 
 [xml="text"] {
   margin: 0;
   padding-top: 5vw;
-  color: var(--dark);
+  color: colors.$dark;
 }
 
-@media (min-width: 576px) {
+@media (min-width: widths.$sm) {
   [xml="text"] {
     font-size: 1.2rem;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: widths.$lg) {
   [xml="body"] {
     flex-direction: row !important;
   }
@@ -41,7 +44,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: widths.$xl) {
   [xml="text"] {
     font-size: 1.6rem;
   }
