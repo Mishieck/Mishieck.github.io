@@ -3,6 +3,16 @@ import markup from "./footer.xml";
 import styles from "./footer.scss";
 
 export const footer = async () => {
-  const options = { id: "mishieck-github-io-footer", markup, styles: styles.toString() };
-  return $create(options);
+  const attributes = {
+    '[xml="link"]': {
+      rel: "noopener"
+    }
+  };
+
+  return $create({
+    id: "mishieck-github-io-footer",
+    markup,
+    styles: styles.toString(),
+    attributes
+  });
 };

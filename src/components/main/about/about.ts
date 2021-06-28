@@ -4,6 +4,12 @@ import markup from "./about.xml";
 import styles from "./about.scss";
 
 export const about = async () => {
+  const attributes = {
+    '[xml="link"]': {
+      rel: "noopener"
+    }
+  };
+
   const utils = {
     components: { cube }
   };
@@ -12,6 +18,7 @@ export const about = async () => {
     id: "mishieck-github-io-about",
     markup,
     styles: styles.toString(),
+    attributes,
     utils
   });
 };

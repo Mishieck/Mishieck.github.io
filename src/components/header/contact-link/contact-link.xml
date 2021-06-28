@@ -1,6 +1,6 @@
 <contact-link odom-ml="xml" title="@props.name">
   <circle riu-neu="sm radius(50%)">
-    <link html="a" href="@props.link" target="_blank">
+    <link html="a" href="@props.link" target="_blank" rel="noopener">
       <icon html="img" src="@props.icon" alt="@props.name" title="@props.name" />
     </link>
   </circle>
