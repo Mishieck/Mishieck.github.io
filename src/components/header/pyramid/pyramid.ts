@@ -1,11 +1,12 @@
 import { $create } from "odom";
 import markup from "./pyramid.xml";
 import styles from "./pyramid.scss";
+import pictureSrc from "/src/assets/images/portfolio-pic.png";
 
 export const pyramid = async () => {
   const utils = {
     data: {
-      pictureSrc: "/src/assets/images/portfolio-pic.png"
+      pictureSrc
     }
   };
 
