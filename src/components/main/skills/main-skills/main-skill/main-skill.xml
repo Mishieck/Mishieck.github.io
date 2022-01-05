@@ -1,5 +1,5 @@
 <main-skill odom-ml="xml" html="li" riu-neu="sm" title="@props.name">
-  <icon html="img" src="/src/assets/images/check.svg" class="icon" alt="check" />
+  <icon html="img" src="/src/assets/images/check.svg" class="icon" alt="check" loading="lazy" />
   <name>
     <text html="span" odom-text="name"></text>
   </name>
