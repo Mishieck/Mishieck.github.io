@@ -3,7 +3,7 @@
     <logo-wrapper riu-neu="sm">
       <square>
         <link html="a" href="/">
-          <logo html="img" src="/src/assets/images/logo.svg" alt="Logo" title="Logo" />
+          <logo html="img" src="@data.logo" alt="Logo" title="Logo" />
         </link>
       </square>
     </logo-wrapper>
